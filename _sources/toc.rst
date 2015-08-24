@@ -16,7 +16,8 @@ General Introduction
 .. toctree::
    :maxdepth: 2
 
-   GeneralIntro/intro-TheWayoftheProgram.rst
+   GeneralIntro/LPS/OverviewComputerPrograms.rst
+   GeneralIntro/LPS/WhatProgramsDo.rst
    GeneralIntro/Algorithms.rst
    GeneralIntro/ThePythonProgrammingLanguage.rst
    GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
