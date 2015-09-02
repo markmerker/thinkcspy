@@ -3,13 +3,6 @@
 Table of Contents
 :::::::::::::::::
 
-Assignments
-:::::::::::
-
-.. toctree::
-
-   assignments.rst
-
 General Introduction
 ::::::::::::::::::::
 
@@ -17,6 +10,7 @@ General Introduction
    :maxdepth: 2
 
    GeneralIntro/LPS/OverviewComputerPrograms.rst
+   GeneralIntro/LPS/BreakingJobIntoSteps.rst
    GeneralIntro/LPS/WhatProgramsDo.rst
    GeneralIntro/Algorithms.rst
    GeneralIntro/ThePythonProgrammingLanguage.rst
@@ -299,6 +293,15 @@ Classes and Objects - Digging a Little Deeper
    ClassesDiggingDeeper/ArithmeticMethods.rst
    ClassesDiggingDeeper/Glossary.rst
    ClassesDiggingDeeper/Exercises.rst
+
+
+Assignments
+:::::::::::
+
+.. toctree::
+
+   assignments.rst
+
    
 Labs
 ::::

@@ -17,7 +17,7 @@
     <style> .notetext {color:green; font-weight: bold; font-size: 110%; } </style>
     
 .. qnum::
-   :prefix: intro-1-
+   :prefix: lps-gi-ocp-
    :start: 1
 
 
@@ -49,11 +49,12 @@ A computer is an electronic device that takes various kinds of **input**, **proc
 |NOTE| :notetext:`Communication Devices allow computer to send information to and from one another.` Examples of these component are  WiFi routers, modes and network connectors.  They send and receive messages, which allow your computer to talk to the computer on the next desk, through a local network, or to computers all over the world, through the internet.
 
 |
+   **Figure 1.  This diagram shows a CPU and some of the different types of devices with which it inputs and outputs data.**
 
 .. image:: Figures/cpu_program_io.png
    :alt: CPU and devices
    :align: center
-**This diagram shows a CPU and some of the different types of devices with which it inputs and outputs data.**
+   
 
 |
 |
@@ -61,7 +62,7 @@ A computer is an electronic device that takes various kinds of **input**, **proc
 
 **Check your understanding**
 
-.. dragndrop:: question1_1_OCP
+.. dragndrop:: lps-gi-ocp-dd-1
     :feedback: This is feedback.
     :match_1: DVD|||Storage
     :match_2: Mouse|||Input
@@ -70,6 +71,7 @@ A computer is an electronic device that takes various kinds of **input**, **proc
     :match_5: WiFi|||Communications
 
     Match the Device to its type.
+
 
 
 .. index:: input,output,processing,CPU,storage

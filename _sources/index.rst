@@ -7,91 +7,92 @@
     is included in the section entitled "GNU Free Documentation License".
 
 .. meta::
-   :description: An interactive version of How to Think Like a Computer Scientist.  Learn to program in Python using this online textbook.
+   :description: A modified interactive version of How to Think Like a Computer Scientist.  This version, rather than being a standalone text, is to be used in conjunction with classroom lectures and exercises.
    :keywords: python, turtle graphics, computer science
 
 .. raw:: html
 
    <h1 style="text-align: center">How to Think Like a Computer Scientist</h1>
-   <h2 style="text-align: center">Learning with Python: Interactive Edition 2.0 </h2>
+   <h3 style="text-align: center">Learning Python: Special Classroom Edition for LPS </h3>
 
 
-.. raw:: html
-
-    <p>Welcome! Take a tour, experiment with Python, join <span id="totalusers"></span> other readers in learning
-    how to think like a computer scientist with Python.</p>
-
-.. activecode:: welcome
-   :above:
-   :autorun:
-   :hidecode:
-   :nocodelens:
-
-   import turtle
-   import random
-
-   def main():
-       tList = []
-       head = 0
-       numTurtles = 10
-       wn = turtle.Screen()
-       wn.setup(500,500)
-       for i in range(numTurtles):
-           nt = turtle.Turtle()   # Make a new turtle, initialize values
-           nt.setheading(head)
-           nt.pensize(2)
-           nt.color(random.randrange(256),random.randrange(256),random.randrange(256))
-           nt.speed(10)
-           wn.tracer(30,0)
-           tList.append(nt)       # Add the new turtle to the list
-           head = head + 360/numTurtles
-
-       for i in range(100):
-           moveTurtles(tList,15,i)
-
-       w = tList[0]
-       w.up()
-       w.goto(0,40)
-       w.write("How to Think Like a ",True,"center","40pt Bold")
-       w.goto(0,-35)
-       w.write("Computer Scientist",True,"center","40pt Bold")
-
-   def moveTurtles(turtleList,dist,angle):
-       for turtle in turtleList:   # Make every turtle on the list do the same actions.
-           turtle.forward(dist)
-           turtle.right(angle)
-
-   main()
 
 
-Benefits of this Interactive Textbook
+
+Welcome
 -------------------------------------
 
-* You can experiment with **activecode** examples right in the book
+Welcome.  This class is going to teach you the Python Programming language.   Python is a powerful language, which is fairly easy to learn and use.  It is also a language that is used by professional programmers all over the industry.
+This Interactive book is designed to be used in conjunction with classroom lectures and exercises.  It will also be where you do some of your homework exercises.
 
-  * Click Show/Hide Code button
-  * On line 7: change ``numTurtles = 10`` to ``numTurtles = 6``
-  * Click the Run button
+This version of the book has been modified especially for Oakland LPS.  Learn about the creators of this book below.
 
-* You can do your **homework** right in the textbook.
-* You can interact with other learners to discuss homework
-* **Interactive questions** make sure that you are on track and help you focus.
-* **Codelens** helps you develop a mental model of how Python works.
-* **Audio Tours** help you understand the code.
-* Short **videos** cover difficult or important topics.
-* You can highlight text, and take notes in scratch editors
+To get started go to the  :ref:`t_o_c`.  But before you go, check out the kind of program you will soon be writing by pressing on "Show Sample Program" and then "Run".
 
-Next Steps
-----------
+.. reveal:: lps-front-rev1
+    :showtitle: Show Sample Program
+    :hidetitle: Hide Sample Program
+
+    * You can experiment with this program if you like
+
+    * Click the Run button to draw the picture
+    * Click Show/Hide Code button
+    * On line 7: change ``numTurtles = 10`` to ``numTurtles = 6`` and the press Run.
+
+    .. activecode:: welcome
+       :above:
+       :autorun:
+       :hidecode:
+       :nocodelens:
+
+       import turtle
+       import random
+
+       def main():
+           tList = []
+           head = 0
+           numTurtles = 10
+           wn = turtle.Screen()
+           wn.setup(500,500)
+           for i in range(numTurtles):
+               nt = turtle.Turtle()   # Make a new turtle, initialize values
+               nt.setheading(head)
+               nt.pensize(2)
+               nt.color(random.randrange(256),random.randrange(256),random.randrange(256))
+               nt.speed(10)
+               wn.tracer(30,0)
+               tList.append(nt)       # Add the new turtle to the list
+               head = head + 360/numTurtles
+
+           for i in range(100):
+               moveTurtles(tList,15,i)
+
+           w = tList[0]
+           w.up()
+           w.goto(0,40)
+           w.write("How to Think Like a ",True,"center","40pt Bold")
+           w.goto(0,-35)
+           w.write("Computer Scientist",True,"center","40pt Bold")
+
+       def moveTurtles(turtleList,dist,angle):
+           for turtle in turtleList:   # Make every turtle on the list do the same actions.
+               turtle.forward(dist)
+               turtle.right(angle)
+
+       main()
+
+
+
+
+
+Some Handy Links
+-----------------------
 
 * Get an overview of the features in this book  `Click Here </runestone/static/overview/overview.html>`_
 * To get help moving around the book:  :ref:`quick_help`
-* Check out a sample chapter `Hello, Little Turtles! </runestone/static/thinkcspy/PythonTurtle/intro-HelloLittleTurtles.html>`_
-* Check out the :ref:`t_o_c`
-* Take me to Chapter 1  `The Way of the Program </runestone/static/thinkcspy/GeneralIntro/intro-TheWayoftheProgram.html>`_
 
-About this Project
-------------------
+About this Book and Project
+-------------------------------------
 
 This interactive book is a product of the `Runestone Interactive <http://runestoneinteractive.org>`_ Project at Luther College, led by `Brad Miller <http://reputablejournal.com>`_ and David Ranum.  There have been many contributors to the project.  Our thanks especially to the following:
 
@@ -103,11 +104,6 @@ This interactive book is a product of the `Runestone Interactive <http://runesto
 
 The Runestone Interactive tools are open source and we encourage you to contact us, or grab a copy from GitHub if you would like to use them to write your own resources.
 
-Contact
--------
-
-* If you have questions about this book please send me email `bmiller@luther.edu <mailto:bmiller@luther.edu>`_
-* Check out the project on `GitHub <https://github.com/bnmnetp/runestone>`_
 * Visit our `Facebook page <https://www.facebook.com/RunestoneInteractive>`_
 
 
