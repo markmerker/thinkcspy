@@ -15,6 +15,12 @@
    <h1 style="text-align: center">How to Think Like a Computer Scientist</h1>
    <h3 style="text-align: center">Learning Python: Special Classroom Edition for LPS </h3>
 
+.. role:: biglink
+
+.. raw:: html
+
+    <style> .biglink {color:blue; font-weight: bold; font-size: 300%; } </style>
+
 
 
 
@@ -27,21 +33,27 @@ This Interactive book is designed to be used in conjunction with classroom lectu
 
 This version of the book has been modified especially for Oakland LPS.  Learn about the creators of this book below.
 
-To get started go to the  :ref:`t_o_c`.  But before you go, check out the kind of program you will soon be writing by pressing on "Show Sample Program" and then "Run".
+To get started go to the
+
+:ref:`t_o_c`    
+----------------
+        
+|
+       
+But before you go, check out the kind of program you will soon be writing by pressing on "Show Sample Program" and then "Run".
 
 .. reveal:: lps-front-rev1
     :showtitle: Show Sample Program
     :hidetitle: Hide Sample Program
 
-    * You can experiment with this program if you like
+    **You can experiment with this program if you like**
 
-    * Click the Run button to draw the picture
-    * Click Show/Hide Code button
-    * On line 7: change ``numTurtles = 10`` to ``numTurtles = 6`` and the press Run.
+   Click the Run button to draw the picture
+   Click Show/Hide Code button
+   On line 7: change ``numTurtles = 10`` to ``numTurtles = 6`` and the press Run.
 
-    .. activecode:: welcome
+    .. activecode:: lps-front-code-1
        :above:
-       :autorun:
        :hidecode:
        :nocodelens:
 
@@ -70,9 +82,9 @@ To get started go to the  :ref:`t_o_c`.  But before you go, check out the kind o
            w = tList[0]
            w.up()
            w.goto(0,40)
-           w.write("How to Think Like a ",True,"center","40pt Bold")
+           #w.write("How to Think Like a ",True,"center","40pt Bold")
            w.goto(0,-35)
-           w.write("Computer Scientist",True,"center","40pt Bold")
+           #w.write("Computer Scientist",True,"center","40pt Bold")
 
        def moveTurtles(turtleList,dist,angle):
            for turtle in turtleList:   # Make every turtle on the list do the same actions.
@@ -82,6 +94,7 @@ To get started go to the  :ref:`t_o_c`.  But before you go, check out the kind o
        main()
 
 
+|
 
 
 
@@ -90,6 +103,9 @@ Some Handy Links
 
 * Get an overview of the features in this book  `Click Here </runestone/static/overview/overview.html>`_
 * To get help moving around the book:  :ref:`quick_help`
+
+|
+
 
 About this Book and Project
 -------------------------------------

@@ -21,53 +21,61 @@
 
 Breaking a Job into Steps
 ====================
-|NOTE| :notetext:`A program is a set of instructions that tell the proccessor how to get input data, manipulate in, and create output.` These instructions are written in one of many Programming Languages.  But before getting into details about what a language is, and how it works, lets take just talk a little about how someone does a task.
+|NOTE| :notetext:`A program is a set of instructions that tell the proccessor how to get input data, manipulate in, and create output.` These instructions are written in one of many programming languages, like Python.  In some way, they are not much different than the way we might instruct a person to do a job.
 
-Performing  Tasks
---------------------
-Suppose I ask you to make a reservation for dinner tonight at a restaurant.  Take a minute, and list the steps you will need to take to do this.  (There is no one right answer, just name the needed steps.)
+But one of the real challenges in programming is dividing a task in to managable pieces.   A job of any size can be broken up into a few large pieces.  Each of those pieces can be broken up into smaller pieces.  This process may be repeated many teams before you are down to the level of simple, doable steps.
+
+Let's say you we're going to make a cake.  Here is a recipe:
+
+**INGREDIENTS**
+
+    - 1 cup white sugar
+    - 1/2 cup butter
+    - 2 eggs
+    - 2 teaspoons vanilla extract
+    - 1 1/2 cups all-purpose flour
+    - 1 3/4 teaspoons baking powder
+    - 1/2 cup milk
+
+**DIRECTIONS**
+     #. In a medium bowl, mix together the sugar and soft butter thoroughly. 
+     #. Grease  a 9x9 inch pan with butter.
+     #. Beat in the eggs, one at a time, then stir in the vanilla.
+     #. Combine flour and baking powder separately,  then add to the creamed mixture and mix well. 
+     #. Stir in the milk until batter is smooth.
+     #. Pour batter into the prepared pan.
+     #. Bake for 30 to 40 minutes in the preheated 350 degreeoven.
+     #. Cake is done when it springs back to the touch.
+
+
+This may seem like a pretty simple set of tasks, but if you just walk into the kitchen, grab a bowl, and start mixing, you will probably soon find yourslef in trouble.  The real job of baking a caking has many sub-tasks.  Following the recipe is only one of them.
+Let's make a list major tasks in baking this cake.
 
 .. reveal:: lps-gi-bjis-rev1
-    :showtitle: Show List
-    :hidetitle: Hide List
+    :showtitle: Show Steps
+    :hidetitle: Hide Steps
     
-        Steps to Make a Reservation
+    **Suggested Major Steps **
+    
+    #. Make sure you have the ingredients.
+    #. Get things prepared.
+    #. Follow the recipe to get cake in the oven.
+    #. Check cake periodically to see if it's done.
 
-        #.  Ask what time, what restaurant, and how many people are going.
+Suppose now, we want to break up these tasks into smaller task.  For example, the task  "make sure you have the ingredients" may become:
 
-        #.  Look up the restaurant on your phone.
-
-        #.  Call the restauant
-
-        #.  Make the reservation
-
-Now lets make this list a little more detailed by separating and identifying your "input" steps from your "output" steps. For example,  asking a question is an output task, but getting the answer is an input task.  List the steps again.
-
-.. reveal:: lps-gi-bjis-rev2
-    :showtitle: Show List
-    :hidetitle: Hide List
-
-        More Steps to Make a Reservation
+    **Make sure you have the ingredients**
+        - Read through recipe.
+        - Fetch each needed item, and put it on the counter.
+        - Make a list of missing ingredients, and borrow from next door.
         
-        #.  Ask what time, what restaurant, and how many people are going. (*output*)
-        
-        #.  Listen to my answers.  (*input*)
-        
-        #.  You decide the time is too early (*processing*)
-        
-        #.  Listen to my answer.  (*input*)
+ Let's make a list with the original tasks and their sub-tasks;
+    
+.. reveal:: lps-gi-bjis-rev1
+    :showtitle: Show Steps
+    :hidetitle: Hide Steps
 
-        #.  Ask if you can make it an hour later. (*output*)
-
-        #.  Look up the restaurant on your phone. (*input*)
-
-        #.  Call the restaurant. (*output*)
-
-        #.  Ask for the reservation. (*output*)
-        
-        #.  Make sure the restaurant confirms. (*input*)
-
-  Notice we threw in something new.  A step where you make a decision, and we labelled it **processing**. You are not inputting or outputting, but thinking about the data (in this case, the time I suggested for dinner).
+    **Suggested Major Steps **
 
 |
 

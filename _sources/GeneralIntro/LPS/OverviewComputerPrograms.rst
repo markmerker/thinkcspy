@@ -24,7 +24,7 @@
 Overview - Computers and Programs 
 -----------------------------------------
 
-As you know, there are computers everywhere.  For this course, we are going to concentrate on the thing you are looking at now, your desktop, laptop or pad computer.  Most of what we will learn about it will apply to many other computers, but we will focus on this to keeps thinks (relatively) simple. 
+As you know, there are computers everywhere.  For this course, we are going to concentrate on the thing you are looking at now, your desktop, laptop or pad computer.  Most of what we will learn about it will apply to many other computers, but we will focus on this to keep things (relatively) simple. 
 
 A computer is an electronic device that takes various kinds of **input**, **processes** it, and generates various kinds of **output**.  What could be simpler?  Well, let's explain it a little more.
 
@@ -37,11 +37,11 @@ A computer is an electronic device that takes various kinds of **input**, **proc
  |NOTE| :notetext:`Input is information or data going into the processor from the user or another computer.`  Some of the devices that can generate input are keyboards, mice, touchpads, microphones, scanners, communication devices, and  storage devices.
 
 **Output Devices**
- |NOTE| :notetext:`Output is data that the computer has created, and "wants" to send out to the world.` It does so through output devices such as screens, headphones, printers,  communication devices, and storage devices.
+ |NOTE| :notetext:`Output is data that the computer has created, and sends out to the world: to users, to storage and to other computers.` It does so through output devices such as screens, headphones, printers, storage devices and communication devices.
 
 **Storage Devices**
 
-|NOTE| :notetext:`Storage device hold permanent copies of the electronic data` that computers use.  Some examples of storage devices are hard discs, thumb drives, CDs and DVDs. The copies held on these devices can be movies, songs, documents, programs, and lots of other computer files.  
+|NOTE| :notetext:`Storage devices hold permanent copies of the electronic data` that computers use.  Some examples of storage devices are hard discs, thumb drives, CDs and DVDs. The data held on these devices can be movies, songs, documents, programs, and many other kinds computer files.  
 
 
 **Communication Devices**

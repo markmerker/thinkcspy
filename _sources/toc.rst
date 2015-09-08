@@ -10,10 +10,11 @@ General Introduction
    :maxdepth: 2
 
    GeneralIntro/LPS/OverviewComputerPrograms.rst
-   GeneralIntro/LPS/BreakingJobIntoSteps.rst
+   GeneralIntro/LPS/TasteOfPython.rst
    GeneralIntro/LPS/WhatProgramsDo.rst
    GeneralIntro/Algorithms.rst
    GeneralIntro/ThePythonProgrammingLanguage.rst
+   GeneralIntro/LPS/BreakingJobIntoSteps.rst
    GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
    GeneralIntro/MoreAboutPrograms.rst
    GeneralIntro/WhatisDebugging.rst
