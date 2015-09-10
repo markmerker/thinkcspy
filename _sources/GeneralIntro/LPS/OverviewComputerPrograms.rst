@@ -15,6 +15,12 @@
 .. raw:: html
 
     <style> .notetext {color:green; font-weight: bold; font-size: 110%; } </style>
+
+.. role:: sctnhead
+
+.. raw:: html
+
+    <style> .sctnhead {color:black; font-weight: bold; font-size: 140%; } </style>
     
 .. qnum::
    :prefix: lps-gi-ocp-
@@ -58,10 +64,13 @@ A computer is an electronic device that takes various kinds of **input**, **proc
 
 |
 |
-|
 
-**Check your understanding**
+:sctnhead:`Check your understanding`
 
+Question 1
+   In this room there are non-electronic Storage Devices,  They hold data that is not electronic.  Can you name two of them?
+   
+   
 .. dragndrop:: lps-gi-ocp-dd-1
     :feedback: This is feedback.
     :match_1: DVD|||Storage
@@ -76,3 +85,17 @@ A computer is an electronic device that takes various kinds of **input**, **proc
 
 .. index:: input,output,processing,CPU,storage
 
+|
+|
+|
+
+:sctnhead:`Glossary and Terms`
+
+CPU
+    The Central Processing Unit, the chip inside the computer that actually executes the programs.
+    
+Input Device
+    A device with which a user can send information into the computer.  Example: a keyboard.
+
+Output device 
+    A device the computer uses to present informantion to the user.   Example: video screen.

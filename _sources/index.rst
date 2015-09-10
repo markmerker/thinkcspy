@@ -37,22 +37,19 @@ To get started go to the
 
 :ref:`t_o_c`    
 ----------------
-        
-|
-       
-But before you go, check out the kind of program you will soon be writing by pressing on "Show Sample Program" and then "Run".
+
+ 
+But before you go, check out the kind of program you will soon be writing by pressing on "Show".
 
 .. reveal:: lps-front-rev1
-    :showtitle: Show Sample Program
-    :hidetitle: Hide Sample Program
+    :showtitle:Show Sample Program
+    :hidetitle:Hide Sample Program
 
-    **You can experiment with this program if you like**
+   -  Click the **"Run"** button to draw the picture
+   -  Click Show/Hide Code button to see the python code.
+   -  On line 7: change ``numTurtles = 10`` to ``numTurtles = 6`` and the press Run.
 
-   Click the Run button to draw the picture
-   Click Show/Hide Code button
-   On line 7: change ``numTurtles = 10`` to ``numTurtles = 6`` and the press Run.
-
-    .. activecode:: lps-front-code-1
+   .. activecode:: lps-front-code-1
        :above:
        :hidecode:
        :nocodelens:
@@ -80,10 +77,10 @@ But before you go, check out the kind of program you will soon be writing by pre
                moveTurtles(tList,15,i)
 
            w = tList[0]
-           w.up()
-           w.goto(0,40)
+           #w.up()
+           #w.goto(0,40)
            #w.write("How to Think Like a ",True,"center","40pt Bold")
-           w.goto(0,-35)
+           #w.goto(0,-35)
            #w.write("Computer Scientist",True,"center","40pt Bold")
 
        def moveTurtles(turtleList,dist,angle):
@@ -93,10 +90,7 @@ But before you go, check out the kind of program you will soon be writing by pre
 
        main()
 
-
 |
-
-
 
 Some Handy Links
 -----------------------

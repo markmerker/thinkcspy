@@ -29,7 +29,7 @@
 
 
 A Quick Taste of Python
-====================
+============================
 
 While it has many complex intracacies, some basic python code is readable, almost as if it was English.  
 
@@ -49,23 +49,27 @@ Here is the world's most famous program.  Since 1978 when the langauge C was pub
 
 **Things to notice**
 
--  The data the we want the print command to use is inside of perenthesis.
+-  The data the we want the print command to use is inside of parenthesis.
 -  The phrase Hello World! is surrounded by quotes.
  
- |
+ 
+:sctnhead:`Data`
         
-We have said that programs process data.  What is data?  Well, it is information, but that doesn't really tell us much.  Let's take some examples.  WHile there are many types of data, tehre are two you are very familiar with.  They are **numbers** and **words**.   Genereally in CS, we refer to words as **text**.  Text is anything you can type on a keyboard, including spaces, numbers, and punctuation.   
-|NOTE| :notetext:`A string  is a piece of text inside a pair of quotes.` A string can be as short as a single space **" "**, or even empty "".  It can be as long hundreds characters - 
+We have said that programs process data.  What is data?  Well, it is information, but that doesn't really tell us much.  Let's take some examples.  While there are many types of data, there are two you are very familiar with.  They are **numbers** and **words**.   Genereally in CS, we refer to words as **text**.  Text is anything you can type on a keyboard, including spaces, numbers, and punctuation.   
+|NOTE| :notetext:`A character is a single piece of text, like a letter, a digit (0-9), a space or a punctuation mark.`
+
+
+|NOTE| :notetext:`A string  is a set of characters.` It is generally found inside quote marks.  Example: "Hi mom".  A string can be as short as a single space **" "**, or even empty "".  It can be as long as hundreds characters - 
 
 ::
 
-"Here is an extremely long string which is created to demonstrate that strings can be of great length, contain text numbers like 42, primitive emoticons :) and p_u^n%c#t!u)a*t?i>o<n marks of all kinds.  I could go on like this for a long time, but it might become uninteresting."
+"Here is an extremely long string which is created to demonstrate that strings can be of  great length, contain text numbers like 42, primitive emoticons :) and p_u^n%c#t!u)a*t?i>o<n marks of all kinds.  I could go on like this for a long time, but it might become uninteresting."
 
 |
 
 :sctnhead:`Numbers`
 
-Here is program that process numbers.  Predict what it will do, and then press "Run".
+Here is program that process numbers.  Try to predict what it will do, and then press "Run".
 
 
     .. activecode:: lps-gi-top-code-1
@@ -82,7 +86,7 @@ Here is program that process numbers.  Predict what it will do, and then press "
 -   The print statement prints a list of things, separated by commas.
 -   The print statement prints both numbers (like x) with text like ("="). 
 -   Text, like the plus sign **(+)**, is surrounded by quotes.
--   **Variables** are things that computer uses to keep track of a value.  Here we see the program setting a variable called x to the number 1.  It can then use x later,  as in the addition z = x + y, and as in the print statement.  Because x was set to 1, wherever it appears later, it is as if the number a 1 was there.
+-   **Variables** are things that computer uses to keep track of a value.  Here we see the program setting a variable called **x** to the number 1.  It can then use **x** later,  as in the addition z = x + y, and as in the print statement.  Because x was set to 1, wherever it appears later, it is as if the number a 1 was there.
 
 **Exercise 1.** Modify the program above by changing the values x and y are set to, and see what happens.
 
@@ -120,7 +124,27 @@ Here is a program that processes text
 -   This time we used a variable named myName
 -   Instead of setting the value of the variable to a number, we set it to text. 
 
-Modify the code above to use your name, and a greeting other than "Hello".  When it is working properly, press "Save" to submit it.
+**Exercise 3.**  Modify the code above to use your name, and a greeting other than "Hello".  When it is working properly, press "Save" to submit it.
 
+|
+|
 
-.. index:: numbers,text,words,processing,hello world, strings
+:sctnhead:`Glossary and Terms`
+
+Data
+    Information that the computer can manage.  The most common types of data are Numbers and Text
+    
+Character 
+    A single piece of text.  Examples:   A  z  5  +  ,
+
+String
+    A set of characters. Examples: "hi mom"  "free 2 B me!" "abc123$%^ OMG"
+
+print
+    A python statement that sends data to the screen.  (more later)
+    
+variable
+    A thing used by computer code to keep track of some value.  (more later)
+   
+    
+.. index:: numbers,text,words,processing,hello world, string, character, data
