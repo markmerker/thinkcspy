@@ -11,6 +11,7 @@ General Introduction
 
    GeneralIntro/LPS/OverviewComputerPrograms.rst
    GeneralIntro/LPS/TasteOfPython.rst
+   GeneralIntro/LPS/VariablesAndDataTypes.rst
    GeneralIntro/LPS/BookStopsHere.rst
    GeneralIntro/Algorithms.rst
    GeneralIntro/ThePythonProgrammingLanguage.rst

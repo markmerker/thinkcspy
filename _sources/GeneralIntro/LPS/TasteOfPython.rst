@@ -102,8 +102,8 @@ Here is program that process numbers.  Try to predict what it will do, and then 
         b = 2
         c = a + b
         print( a, "+", b, "=", c )
-        c = a - b
-        
+        print()
+    
 
 |
 
