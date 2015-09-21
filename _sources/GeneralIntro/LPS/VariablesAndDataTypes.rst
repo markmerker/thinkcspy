@@ -29,7 +29,7 @@
 Variables and Data Types
 -----------------------------------------
 
-|NOTE| :notetext:`A Variable is a named object that holds a value.`  There are many different types of values.  Last lesson we talked about Text and Numbers.   In python, these are actually three types of data: strings, integers and decimal numbers.  These types have the following names in python:
+|NOTE| :notetext:`A Variable is a named entity that holds a value.`  There are many different types of values.  Last lesson we talked about Text and Numbers.   In python, these are actually three types of data: strings, integers and decimal numbers.  These types have the following names in python:
 
 +-------------------+------------+------------+
 | Data Type         | Python Type| Samples    |
@@ -43,7 +43,14 @@ Variables and Data Types
 | floating point    |            |            |  
 +-------------------+------------+------------+ 
 
-The python names are important for two reasons.  There is a python function named **type**, that will tell you the type of any variable.  In addition, you can convert a variable from one type to another by using the type name as function.
+
+:sctnhead:`Why Data Types Matter`
+    When you create a variable, the computer needs to store its value in memory.  It also needs to be ready to process its value in different ways.  But an int needs to be stored differently than a float, which is stored differently than a string. An int is stored in 4 bytes (32 bits).  A floating point number takes 64 bits.  The meaning of each bit in the different numbers is completely different.  A string is stored roughly with 1 byte for each character.  All ints require the same 4 bytes, but a string requires as many bytes as there are characters.
+    
+    The computer needs the type so it can now how to store the data, and how to manipulate it.
+
+
+The python names of the types are important for two reasons.  There is a python function named **type**, that will tell you the type of any variable.  In addition, you can convert a variable from one type to another by using the type name as function.
 
 The python code below demonstrates these functions:
 
@@ -66,10 +73,10 @@ The python code below demonstrates these functions:
 
 **Things to notice**
 
+-  We use the equal sign **=** to set the value of a variable.  This is called **assignment**.
 -  In the first line, **a** is set to a float, because the number has a decimal point.
 -  The **type()** function creates a string with the word **class** followed by the variable's type.
 -  When we change **a**'s type to int, it's display value changes. 
--  We use the equal sign **=** to set the value of a variable.  This is called **assignment**.
 
 
 :sctnhead:`Converting Data Types`
@@ -99,7 +106,6 @@ you will get an error, because there is no way to convert "hi mom" to an integer
 
 ..
 
-In the next lesson, we will examine your results, and talk more about how to use variables.
 
 |
 |

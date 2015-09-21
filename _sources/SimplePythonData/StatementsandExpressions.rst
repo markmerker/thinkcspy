@@ -42,7 +42,7 @@ to functions. Expressions need to be evaluated.  If you ask Python to ``print`` 
 
 In this example ``len`` is a built-in Python function that returns the number
 of characters in a string.  We've previously seen the ``print`` and the
-``type`` functions, so this is our third example of a function!
+``type`` functions, so ``len`` is our third example of a function.
 
 The *evaluation of an expression* produces a value, which is why expressions
 can appear on the right hand side of assignment statements. A value all by
@@ -60,15 +60,15 @@ If we take a look at this same example in the Python shell, we will see one of t
 
 .. sourcecode:: python
 
-	>>> y = 3.14
-	>>> x = len("hello")
-	>>> print(x)
-	5
-	>>> print(y)
-	3.14
-	>>> y
-	3.14
-	>>>
+    >>> y = 3.14
+    >>> x = len("hello")
+    >>> print(x)
+    5
+    >>> print(y)
+    3.14
+    >>> y
+    3.14
+    >>>
 
 Note that when we enter the assignment statement, ``y = 3.14``, only the prompt is returned.  There is no value.  This
 is due to the fact that statements, such as the assignment statement, do not return a value.  They are simply executed.

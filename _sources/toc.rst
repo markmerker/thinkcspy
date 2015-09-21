@@ -12,19 +12,9 @@ General Introduction
    GeneralIntro/LPS/OverviewComputerPrograms.rst
    GeneralIntro/LPS/TasteOfPython.rst
    GeneralIntro/LPS/VariablesAndDataTypes.rst
+   GeneralIntro/LPS/StatementsAndExpressions.rst
+   GeneralIntro/LPS/OperatorsAndOperands.rst
    GeneralIntro/LPS/BookStopsHere.rst
-   GeneralIntro/Algorithms.rst
-   GeneralIntro/ThePythonProgrammingLanguage.rst
-   GeneralIntro/LPS/BreakingJobIntoSteps.rst
-   GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst
-   GeneralIntro/MoreAboutPrograms.rst
-   GeneralIntro/WhatisDebugging.rst
-   GeneralIntro/Syntaxerrors.rst
-   GeneralIntro/RuntimeErrors.rst
-   GeneralIntro/SemanticErrors.rst
-   GeneralIntro/ExperimentalDebugging.rst
-   GeneralIntro/FormalandNaturalLanguages.rst
-   GeneralIntro/ATypicalFirstProgram.rst
    GeneralIntro/Comments.rst
    GeneralIntro/Glossary.rst
 
