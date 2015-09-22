@@ -50,37 +50,54 @@ Variables and Data Types
     The computer needs the type so it can now how to store the data, and how to manipulate it.
 
 
-The python names of the types are important for two reasons.  There is a python function named **type**, that will tell you the type of any variable.  In addition, you can convert a variable from one type to another by using the type name as function.
+|NOTE| :notetext:`There is a python function named "type", that will tell you the data type of any variable.`  
 
-The python code below demonstrates these functions:
+The python code below demonstrates the function:
 
     .. activecode:: lps-vadt-code-1
         :above:
         :nocodelens:
+        :nocanvas:
 
         a = 1.0
-        typea = type(a)
-        print ( "a is ", a, " type ",typea  )
-        a = int( a )
-        typea = type(a)
-        print ( "a is ", a, " type ",typea  )
-        a = str( a )
-        typea = type(a)
-        print ( "a is ", a, " type ",typea  )
-        a = float( a )
-        typea = type(a)
-        print ( "a is ", a, " type ",typea  )
+        b = 10
+        c = "10"
+        print ( "a: value is ", a, " type is ",type(a)  )
+        print ( "b: value is ", b, " type is ",type(b)  )
+        print ( "c: value is ", c, " type is ",type(c)  )
+
+
 
 **Things to notice**
 
 -  We use the equal sign **=** to set the value of a variable.  This is called **assignment**.
 -  In the first line, **a** is set to a float, because the number has a decimal point.
--  The **type()** function creates a string with the word **class** followed by the variable's type.
--  When we change **a**'s type to int, it's display value changes. 
+-  The *type()* function returns a string of the format
+        ``<class 'TYPE' >`` where *TYPE* is int, float, etc.
+
+:sctnhead:`A quick word on Functions`
+
+    We have started to use the word ``function`` frequently, but haven't really defined it.  We are not going to define it yet, but by using it you can see how it works. A function is code that does some job.  You call it from your code.  After the name of the function are always parens (), that hold the data you want the function to use.  So saying 
+    
+        type( *something* )
+    
+    is like saying: tell me the type of *something*.
+    
+    Another example of a function is ``abs()``, which calculates the absolute value of a number.  So saying:
+    
+        abs( -23.43 )
+        
+    is like saying "tell me the absolute value of -23.43".  The function returns the value ``23.43``.   Quick: what is the data type of ``23.43``? 
 
 
 :sctnhead:`Converting Data Types`
 
+The name of a data type may also be the name of a function that converts data to that data type.  For example the statement
+
+    b = int( 1.0 )
+
+loads ``b`` with the result of converting the float 1.0 to an integer.  The value of 
+``b`` becomes 1, and the data type of ``b`` is int.
 
 Some data types can be converted to others, some can't. For example, if you try this
 
@@ -97,12 +114,11 @@ you will get an error, because there is no way to convert "hi mom" to an integer
     :above:
     :nocodelens:
 
-    #  Testing int to float
-    a = 1
-    print ("Testing int to float by converting a of value ", a )
-    a = float( a )
-    print ("  -- result  a is ", a, " type is", type(a) )
-    print()
+    a = 14398
+    b = float( a )
+    print ( "a: value is ", a, " type is ",type(a)  )
+    print ( "b: value is ", b, " type is ",type(b)  )
+
 
 ..
 
@@ -126,3 +142,8 @@ float
     
 str
     python data type for text strings.
+    
+functions we have encountered
+    print(),  type(),  abs(), str(), int(), float()
+    
+   

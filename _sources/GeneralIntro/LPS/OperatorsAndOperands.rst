@@ -30,9 +30,13 @@
 Operators and Operands: Part 1
 ----------------------------------------
 
-**Operators** are special tokens that represent computations like addition,
-multiplication and division. The values the operator works on are called
-**operands**.  In the expression **"1 + 2"**  the operator is **+** and the operands are **1**, and **2**.
+**Operators** are special tokens that represent computations, "+" represents addition,
+"-" represents subtraction, etc.
+
+The values the operator works on are called
+**operands**.  
+
+In the expression ``1 + 2``  the operator is ``+`` and the operands are ``1``, and ``2``.
 
 The following are all legal Python **expressions** whose meaning is more or less
 clear::
@@ -47,7 +51,7 @@ clear::
 The operands ``+``, ``-``, and ``*`` mean in Python what they mean in mathematics. The asterisk (``*``), *not x*, is the token for multiplication, and ``**`` is the token for exponents.  ``5 ** 2`` is the same as "5 to the power of 2",  or "5 squared".
 
 
-Addition, subtraction, multiplication, and exponentiation all do what you expect.
+Addition, subtraction, multiplication, and exponentiation all do what you expect.  Take a moment and write down what you think the code below will output to the screen.
 
 .. activecode:: lps-oao-code-1
     :nocanvas:
@@ -59,26 +63,13 @@ Addition, subtraction, multiplication, and exponentiation all do what you expect
     print(2 ** 3)
     print(3 ** 2)
 
-When a variable name appears in the place of an operand, it is replaced with
-the value to which it refers.
-For example, what if we wanted to find length in miutes of a movie that was 2 hours and 23 minutes long, we might write the following code.
-
-.. activecode:: lps-oao-code-2
-    :nocanvas:
-    :nocodelens:
-
-    hours = 2
-    minutes = 23
-    total_minutes = (hours * 60) + minutes
-    print( total_minutes )
-
 :sctnhead:`Three Kinds of Division`
 
-Computer division is a little more interesting than it is in simple arithmetic.  There are actually 3 kinds of division, represented by the symbols  /,  //  and %.   
+Division with computers is a little more interesting than it is in simple arithmetic.  There are actually 3 kinds of division, represented by the symbols  /,  //  and %.   
 
 This exercise has two purposes.  This first is to learn about the three kinds of division.  The second is to learn a little about problem solving.  
 
-Here is the problem:  ** What do  /, // and % do?  How are they different?**
+Here is the problem:  **What do  /, // and % do?  How are they different?**
 
 Exercise 1.  Step 1.
 
@@ -112,13 +103,13 @@ Exercise 1.  Step 2.
     
 
 Exercise 1.  Step 3.
-    Still haven't figured out how the different types of division work.  Hidden below is a suggestion that might help.
+    Still haven't figured out how the different types of division work?  Hidden below is a suggestion that might help.
     
 .. reveal:: lps-oao-rev2
     :showtitle:"Show_Suggestion"
     :hidetitle:"Hide_Suggestion"
     
-    In order to solve the problem, try to be systematic.  Order your tests in a way that will help you understand what's going on.  For example, set ``a = 7``.  Then execute the problem for every value of b from 1 to 10.  Look for a pattern in the results. Try again wtih ``a = 3``.
+    In order to solve the problem, try to be systematic.  Order your tests in a way that will help you understand what's going on.  For example, set ``a = 7``.  Then execute the problem for every value of b from 1 to 10.  Look for a pattern in the results. Try again with ``a = 3``.
 
     
     
