@@ -43,6 +43,14 @@ Variables and Data Types
 | floating point    |            |            |  
 +-------------------+------------+------------+ 
 
+:sctnhead:`Values vs. Data Types`
+    A Variable are set to Value with the = sign.
+    
+        a = 1      b = 3.41     c = "hi mom"
+        
+    Since all data has a type, whenever you set the value of a variable, you are also setting its data type.  a is an int, b is a float, c is a str.  
+    It is important to keep it straight.  The value is the actual data, the data type is the kind of data.
+
 
 :sctnhead:`Why Data Types Matter`
     When you create a variable, the computer needs to store its value in memory.  It also needs to be ready to process its value in different ways.  But an int needs to be stored differently than a float, which is stored differently than a string. An int is stored in 4 bytes (32 bits).  A floating point number takes 64 bits.  The meaning of each bit in the different numbers is completely different.  A string is stored roughly with 1 byte for each character.  All ints require the same 4 bytes, but a string requires as many bytes as there are characters.
