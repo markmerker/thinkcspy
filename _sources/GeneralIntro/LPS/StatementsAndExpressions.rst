@@ -46,7 +46,8 @@ Some other kinds of statements that we'll see shortly are ``while``, ``for``, ``
 
 
 
-|NOTE| :notetext:`An expression is a combination of values, variables, operators, and calls to functions that will be evaluated by Python.`
+|NOTE| :notetext:`An expression is a combination of values, variables, operators, and calls to functions that will be evaluated by Python.`  Examples:  ``1 + 2 + 3`` ,  ``4 - abs(-2)``,  ``"Hello " + "mother"``, ``type( 123 )``
+     
 
 |NOTE| :notetext:`Evaluation is the process of resolving an expression to its final value.`  Evaluating the expression ``1 + 2 + 3 + 4`` yields the value ``10``.  
 
@@ -66,7 +67,7 @@ What do you thinks the output of this code will be?
 
 ________________________________________________
 
-Whenever python encounters as expression, it evaluates it, and uses the value in accordance with the statement the expression is found in.  If you ask Python to ``print`` an expression, the interpreter evaluates the expression and displays the result.
+Whenever python encounters an expression, it evaluates it, and uses the value in accordance with the statement the expression is found in.  If you ask Python to ``print`` an expression, the interpreter evaluates the expression and displays the result.
 
 .. activecode:: lps-sae-code-1b
     :nocanvas:
@@ -85,7 +86,7 @@ Whenever python encounters as expression, it evaluates it, and uses the value in
 
 - In the third statement, we use a plus sign to add strings together.  This is legal in python, and is a simple way to add more data to an existing string.  This expression evaluates to the singe string "hello goodbye"
 
-Evaluation always yields a final value.  All values must be of some data type.  There are many data types, but so far, we have only used three: ``str``, ``chr`` and ``float``.
+Evaluation always yields a final value.  All values must be of some data type.  There are many data types, but so far, we have only used three: ``str``, ``int`` and ``float``.
 
 |
 
@@ -117,7 +118,7 @@ Expression
     A combination of values, variables, operators, and functions that can be reduced down to a single value.
 
 Function
-    Some weird thing that uses parenthesis.
+    Code that is called using a name, and perenthesis for passing in data. (A more formal definition will come later).
     
 Statement
     An instruction that the Python interpreter can execute.

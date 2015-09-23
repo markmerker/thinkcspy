@@ -34,7 +34,7 @@ Operators and Operands: Part 1
 "-" represents subtraction, etc.
 
 The values the operator works on are called
-**operands**.  
+**operands**.  These can be actaul numbers, like -13 and 9.99, or variables, like "x" or "hours".  
 
 In the expression ``1 + 2``  the operator is ``+`` and the operands are ``1``, and ``2``.
 

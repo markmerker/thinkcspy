@@ -16,7 +16,7 @@ General Introduction
    GeneralIntro/LPS/OperatorsAndOperands.rst
    GeneralIntro/LPS/BookStopsHere.rst
    GeneralIntro/Comments.rst
-   GeneralIntro/Glossary.rst
+   GeneralIntro/LPS/Glossary.rst
 
 Simple Python Data
 ::::::::::::::::::
