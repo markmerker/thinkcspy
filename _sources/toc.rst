@@ -14,6 +14,7 @@ General Introduction
    GeneralIntro/LPS/VariablesAndDataTypes.rst
    GeneralIntro/LPS/StatementsAndExpressions.rst
    GeneralIntro/LPS/OperatorsAndOperands.rst
+   GeneralIntro/LPS/OperatorsAndOperands2.rst
    GeneralIntro/LPS/BookStopsHere.rst
    GeneralIntro/Comments.rst
    GeneralIntro/LPS/Glossary.rst

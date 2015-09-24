@@ -12,6 +12,16 @@ Glossary
 
 .. glossary::
 
+
+    ``\`` Division 
+        Decimal (floating point) division.  Results are **always a float**, even if the operands are both ints.
+
+    ``\\`` Integer Division 
+        The result is always an integer (whole number), and **always rounded down**.  Thus ``100 // 99 `` is ``9``.
+
+    ``%`` Modular Division  
+        Called 'mod'.  The result is the remainder from integer division. Examples:     ``4 % 3  is 1`` ,  ``100 % 9 is 1`` , ``5 % 5 is 0`` , ``422 % 211 is 0`` , ``423 % 211 is 1``
+
     Assignment
         setting the value of a variable with an equal sign.
 
