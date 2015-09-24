@@ -111,7 +111,15 @@ Exercise 1.  Step 3.
     
     In order to solve the problem, try to be systematic.  Order your tests in a way that will help you understand what's going on.  For example, set ``a = 7``.  Then execute the problem for every value of b from 1 to 10.  Look for a pattern in the results. Try again with ``a = 3``.
 
-    
+ 
+ 
+:sctnhead:`Problem Solving`
+
+Two techniques for problem solving we used.
+
+- When printing data, label it clearly.
+- Be systematic.  Organize the data to clarify what is happening.
+ 
     
 .. index:: operator, operand, problem solving
 
