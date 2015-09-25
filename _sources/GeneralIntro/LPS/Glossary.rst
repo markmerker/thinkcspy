@@ -13,13 +13,13 @@ Glossary
 .. glossary::
 
 
-    ``\`` Division 
+    / Division 
         Decimal (floating point) division.  Results are **always a float**, even if the operands are both ints.
 
-    ``\\`` Integer Division 
+    // Integer Division 
         The result is always an integer (whole number), and **always rounded down**.  Thus ``100 // 99 `` is ``9``.
 
-    ``%`` Modular Division  
+    % Modular Division  
         Called 'mod'.  The result is the remainder from integer division. Examples:     ``4 % 3  is 1`` ,  ``100 % 9 is 1`` , ``5 % 5 is 0`` , ``422 % 211 is 0`` , ``423 % 211 is 1``
 
     Assignment
@@ -63,8 +63,12 @@ Glossary
     Output device 
         A device the computer uses to present informantion to the user.   Example: video screen.
         
-    print
-        A python function that sends data to the screen.  (more later)
+    PEMDAS 
+        Acronym for order of precedence: **P**arenthesis, **E**xponents, **M**ultiplication and **D**ivision,  **A**ddition and **S**ubtraction.
+
+    Precedence
+        The priority in which operators are applied when evaluating an expression.    print
+            A python function that sends data to the screen.  (more later)
 
     Statement
         An instruction that the Python interpreter can execute.

@@ -51,11 +51,12 @@ the value that it refers to before the operation is performed.
 For example, here we convert 645 minutes into hours.  
 
 
-This code shows the use of variables as operands.
+This code shows the use of variables as operands.  The code tried to solve the problem: Think about the problem, 645 minutes is how many hours? 
 
 .. activecode:: lps-oao2-code1
     :nocanvas:
     :nocodelens:
+    :hidecode:
     
     total_minutes = 645
     hours = total_minutes / 60
@@ -129,7 +130,7 @@ Answer 1.
     average = total / 4
     print( "The average is", average )
 
-Exercise 2.
+Exercise 3.
     How many minutes and seconds are there in 987 seconds?
     
     - set the variable "total_time" to 987.
@@ -146,7 +147,7 @@ Exercise 2.
     total_time = 987
 
 
-Exercise 3.
+Exercise 4.
     You have a box that's 18 inches high, 12 inches wide, and 12 inches long.  How many cubic inches can it hold? This quantity is the volume of the box.  (The formula is ``volume =height * width * length``).
     
     - set the variables for height, width and length.
@@ -154,7 +155,7 @@ Exercise 3.
     - Print your answer so it appears on the screen like this 
             "The box is *????* cubic inches."
     
-.. activecode:: lps-oao2-code5
+.. activecode:: lps-oao2-code6
     :nocanvas:
     :nocodelens:
     :above:
@@ -162,7 +163,7 @@ Exercise 3.
     height = 18
 
 
-Exercise 4.
+Exercise 5.
     The box in Exercise 3 turned out to be 2592 cubic inches.  There are 1728 cubic inches in a cubic feet.  Convert the boxes volume to the decimal value of cubic feet.
     
     - set the variable "inches_per_feet" to 1728.
@@ -171,7 +172,7 @@ Exercise 4.
     - Print your answer so it appears on the screen like this  
             "2592 cubic inches is *????* cubic feet."
     
-.. activecode:: lps-oao2-code6
+.. activecode:: lps-oao2-code7
     :nocanvas:
     :nocodelens:
     :above:
@@ -180,12 +181,12 @@ Exercise 4.
 
 
 
-Exercise 5.
+Exercise 6.
     Covert 523 days to an integral number of weeks and days.
     Print your answer so it appears on the screen like this  
             "523 is *????* weeks and *????* days."
     
-.. activecode:: lps-oao2-code7
+.. activecode:: lps-oao2-code8
     :nocanvas:
     :nocodelens:
     :above:

@@ -15,6 +15,7 @@ General Introduction
    GeneralIntro/LPS/StatementsAndExpressions.rst
    GeneralIntro/LPS/OperatorsAndOperands.rst
    GeneralIntro/LPS/OperatorsAndOperands2.rst
+   GeneralIntro/LPS/OrderofOperations.rst
    GeneralIntro/LPS/BookStopsHere.rst
    GeneralIntro/Comments.rst
    GeneralIntro/LPS/Glossary.rst
