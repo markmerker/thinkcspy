@@ -43,8 +43,50 @@ We figured out in the last lesson the three different kinds of arithmetic.  Each
     
     Modular Division  ``%``
         Called 'remainder division', or more often, just 'mod'.  The result is the remainder from integer division. When speaking code we say  *"4 mod 3"*.  Examples:     ``4 % 3  is 1`` ,  ``100 % 9 is 1`` , ``5 % 5 is 0`` , ``422 % 211 is 0`` , ``423 % 211 is 1``
-        
-
+ 
+ :sctnhead:`Variables and Data Types in Expressions`
+ 
+ When a variable name appears in the place of an operand, it is replaced with
+ the value that it refers to before the operation is performed.
+ For example, here we convert 645 minutes into hours.  
+ 
+ 
+ This code shows the use of variables as operands.  The code tried to solve the problem: Think about the problem, 645 minutes is how many hours? 
+ 
+ .. activecode:: lps-oao2-code1
+     :nocanvas:
+     :nocodelens:
+     :hidecode:
+     
+     total_minutes = 645
+     hours = total_minutes / 60
+     print( total_minutes, "minutes is", hours, "hours" )
+     
+ 
+ 
+ In python, it is legal to perform operations that use both integers and floats.  Whenever you use both together, the result is always a float.  If you use decimal division (/), the result is always a float.
+ 
+ It is legal to use strings with the **+** operator, but not with any others.
+ 
+ It is not legal to perform an operation using numbers and strings together (unless you first convert the data type of one or the other.)
+ 
+ ::
+     
+     20 + 32             ## legal
+     hour = 1  
+     minute = 60.0
+     hour * 60 + minute  ## legal
+     99 + 8.32           ## legal
+     "99" + 4            ## ILLEGAL
+     int( 99 ) + 4       ## legal
+     "hi" + " mom"       ## legal
+     "99" + str(4)       ## legal
+     "99" - str(4)       ## ILLEGAL
+     hi = "hi"
+     mom = 12
+     hi + mom            ## ILLEGAL
+     
+ 
 :sctnhead:`What is mod for?  Units, not mini-skirts`
 
 In the sixties, one of the hottest fashion fads was called "Mod".  It was short for "modern", which, as you can see, it totally was.
@@ -96,7 +138,7 @@ How many tons and pounds in 34,212 pounds.
     - ``34212 % 2000 = 212``
     - The answer is 17 tons, 212 pounds.
 
-**Working Backward**
+**Working Backwards**
 
 Now lets try a harder one. How many yards, feet and inches in 202 inches.
 
@@ -109,7 +151,7 @@ Notice the order for this one might we different than what you expect.  Rather t
 
 Here is an even harder one. There are 24 hours in a day, 60 minutes in an hour, 60 second in a minutes.  How long is 182405 seconds?
 
-.. reveal:: lps-oao-rev2
+.. reveal:: lps-oao2-rev2
     :showtitle:Show 
 
     - 60 seconds per minute, so ``182405 // 60 = 3040`` , ``182405 % 60 = 5``,
@@ -125,7 +167,7 @@ Here is an even harder one. There are 24 hours in a day, 60 minutes in an hour, 
 
 Your exercise sheet has a lot of unit problems to solve.  The bad news is you have to solve them on paper, showing your work.  The good news is you can use the python code below to do the arithmetic.  In the code below change the values of x and itemsPerUnit, and run the program.  The code as written calculates the number of feet and inches in 45 inches.  Since ther are 12 inches in a foot, itemsPerUnit = 12.
 
-.. activecode:: lps-oao3-code-1
+.. activecode:: lps-oao2-code2
     :nocodelens:
 
     x = 45
