@@ -197,7 +197,7 @@ Exercise 6.
 :sctnhead:`Glossary and Terms`
 
 PEMDAS 
-    Acronym for order of precedence: **P**arenthesis, **E**xponents, **M**ultiplication and **D**ivision,  **A**ddition and **S**ubtraction.
+    Acronym for order of precedence: **(P**)arenthesis, **(E**)xponents, **(M**)ultiplication and **(D**)ivision, **(A**)ddition and **(S**)ubtraction.
 
 Precedence
     The priority in which operators are applied when evaluating an expression.

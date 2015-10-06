@@ -23,7 +23,7 @@ Glossary
         Called 'mod'.  The result is the remainder from integer division. Examples:     ``4 % 3  is 1`` ,  ``100 % 9 is 1`` , ``5 % 5 is 0`` , ``422 % 211 is 0`` , ``423 % 211 is 1``
 
     Assignment
-        setting the value of a variable with an equal sign.
+        setting the value of a variable.  This is done using an equal **=** sign.  Example: x = 12
 
     Character 
         A single piece of text.  Examples:   A  z  5  +  ,
@@ -58,30 +58,32 @@ Glossary
         The symbol ( +, -, *, **, etc.) in an expression that tells what do the numbers.
 
     Operand
-        The number(s) in an expression that the operation requested by the operand is performed on. 
+        The number(s) in an expression that the operation requested by the operator is performed on. Example: the 1 and the 2 in "1 + 2"
 
     Output device 
         A device the computer uses to present informantion to the user.   Example: video screen.
         
     PEMDAS 
-        Acronym for order of precedence: **P**arenthesis, **E**xponents, **M**ultiplication and **D**ivision,  **A**ddition and **S**ubtraction.
+        Acronym for order of precedence: **(P**)arenthesis, **(E**)xponents, **(M**)ultiplication and **(D**)ivision, **(A**)ddition and **(S**)ubtraction.
 
     Precedence
-        The priority in which operators are applied when evaluating an expression.    print
-            A python function that sends data to the screen.  (more later)
+        The priority in which operators are applied when evaluating an expression.    
+        
+    print
+        A python function that sends data to the screen.  (more later)
 
     Statement
         An instruction that the Python interpreter can execute.
        
     String
-        A set of characters. Examples: "hi mom"  "free 2 B me!" "abc123$%^ OMG"
+        A set of characters. It can be surrounded by single(') or dobule(") quotes. Examples: "hi mom"  'free 2 B me!' "abc123$%^ OMG"
 
     str
         python data type for text strings.
 
-    type
-        python name and function for the data type of an item.
+    Type (or Data Type)
+        The data type of an item. Examples: int, float, str
 
     Variable
-        A thing used by computer code to keep track of some value.  (more later)
+        A named entity the holds a value.
 
