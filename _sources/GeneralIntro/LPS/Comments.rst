@@ -7,8 +7,22 @@
     the license is included in the section entitled "GNU Free Documentation
     License".
 
+.. |NOTE| image:: Figures/pencil.png
+
+.. role:: notetext
+
+.. raw:: html
+
+    <style> .notetext {color:green; font-weight: bold; font-size: 110%; } </style>
+
+.. role:: sctnhead
+
+.. raw:: html
+
+    <style> .sctnhead {color:black; font-weight: bold; font-size: 140%; } </style>
+    
 .. qnum::
-   :prefix: intro-13-
+   :prefix: lps-com-
    :start: 1
 
 Comments
@@ -56,13 +70,49 @@ programs much easier for humans to parse.  Use them liberally!
    What are comments for?
 
 
-.. note::
-
-   This workspace is provided for your convenience.  You can use this activecode window to try out anything you like.
-
-   .. activecode:: scratch_01
+Let's take a look at some exercises from the previous lesson, but this time with comments.
 
 
+**Exercise A.**
+    Find the average of the numbers  ``27.1, 18.5, 0 and 19``.  When you write the code, follow these steps
+    
+    
+Answer 1.
+
+.. activecode:: lps-com-code2
+    :nocodelens:
+
+    # add the numbers
+    total = 27.1 + 18.5 + 0 + 19
+
+    # divide by 4 because there are 4 numbers
+    average = total / 4
+    # outout result.
+    print( "The average is", average )
 
 
+Admittedly, these may be more comments than you need, but they certainly make clear the logic behind the code.
+
+Try doing the next exercise, this time commenting your code. 
+
+
+**Exercise B.**
+
+The time is 9:23:00 AM.  How many seconds has it been since midnight?
+
+.. activecode:: lps-com-code2
+    :nocodelens:
+
+    # calculate the total minutes since midnight
+    
+
+    # convert the minutes to seconds
+    
+    
+    # output to screen "The number of seconds since midnight is ???".
+
+    
+
+
+.. index:: #, comments
 

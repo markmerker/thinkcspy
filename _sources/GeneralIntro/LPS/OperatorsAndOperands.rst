@@ -117,7 +117,7 @@ Exercise 1.  Step 3.
 
 Two techniques for problem solving we used.
 
-- When printing data, label it clearly.
+- When printing data, label it clearly. 
 - Be systematic.  Organize the data to clarify what is happening.
  
     

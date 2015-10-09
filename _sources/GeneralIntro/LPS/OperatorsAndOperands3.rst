@@ -177,7 +177,7 @@ Exercise 5.
 Exercise 6.
     Covert 523 days to an integral number of weeks and days.
     Print your answer so it appears on the screen like this  
-            "523 is *????* weeks and *????* days."
+            "523 days is *????* weeks and *????* days."
     
 .. activecode:: lps-oao3-code9
     :nocanvas:

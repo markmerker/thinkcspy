@@ -97,7 +97,7 @@ Evaluation always yields a final value.  All values must be of some data type.  
 .. reveal:: lps-sae-rev1
     :showtitle:Answer
     
-    When you see the word ``str`` by itself, it is generally describing a data type.  When you use the function ``str`` it is always followed by parens ``str( something )``.  So it is really the **syntax** (or structure) of the statement that tells us about the usage.
+    When you see the word ``str`` by itself, it is generally describing a data type.  When you use the function ``str`` it is always followed by parens ``str( something )``.  So it is really the **syntax** (or structure) of the statement that tells us about the usages.
      
 
 

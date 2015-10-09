@@ -22,6 +22,9 @@ Glossary
     % Modular Division  
         Called 'mod'.  The result is the remainder from integer division. Examples:     ``4 % 3  is 1`` ,  ``100 % 9 is 1`` , ``5 % 5 is 0`` , ``422 % 211 is 0`` , ``423 % 211 is 1``
 
+    #  
+        This symbol represents the start of a comment.
+    
     Assignment
         setting the value of a variable.  This is done using an equal **=** sign.  Example: x = 12
 

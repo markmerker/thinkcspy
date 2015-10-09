@@ -89,9 +89,9 @@ We figured out in the last lesson the three different kinds of arithmetic.  Each
  
 :sctnhead:`What is mod for?  Units, not mini-skirts`
 
-In the sixties, one of the hottest fashion fads was called "Mod".  It was short for "modern", which, as you can see, it totally was.
+In the sixties, one of the hottest fashion fads was called "Mod".  It was short for "modern", which, as you can see, it totally was. 
 
-.. image:: figures/mod_look_2.jpg
+.. image:: ./figures/mod_look_2.jpg
 
 **The "mod look" has nothing to do with modulus arithmetic.**
 
@@ -165,7 +165,7 @@ Here is an even harder one. There are 24 hours in a day, 60 minutes in an hour, 
             
 :sctnhead:`Exercises`
 
-Your exercise sheet has a lot of unit problems to solve.  The bad news is you have to solve them on paper, showing your work.  The good news is you can use the python code below to do the arithmetic.  In the code below change the values of x and itemsPerUnit, and run the program.  The code as written calculates the number of feet and inches in 45 inches.  Since ther are 12 inches in a foot, itemsPerUnit = 12.
+Your exercise sheet has a lot of unit problems to solve.  The bad news is you have to solve them on paper, showing your work.  The good news is you can use the python code below to do the arithmetic.  In the code below change the values of x and itemsPerUnit, and run the program.  The code as written calculates the number of feet and inches in 45 inches.  Since ther are 12 inches in a foot, itemsPerUnit = 12. 
 
 .. activecode:: lps-oao2-code2
     :nocodelens:
