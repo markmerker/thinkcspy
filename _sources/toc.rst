@@ -3,11 +3,20 @@
 Table of Contents
 :::::::::::::::::
 
+Assignments
+:::::::::::
+
+.. toctree::
+   :maxdepth: 2
+   
+   assignments.rst
+
+
 General Introduction
 ::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    GeneralIntro/LPS/OverviewComputerPrograms.rst
    GeneralIntro/LPS/TasteOfPython.rst
@@ -17,8 +26,8 @@ General Introduction
    GeneralIntro/LPS/OperatorsAndOperands2.rst
    GeneralIntro/LPS/OperatorsAndOperands3.rst
    GeneralIntro/LPS/Comments.rst
+   GeneralIntro/LPS/VariableNamesandKeywords.rst
    GeneralIntro/LPS/Glossary.rst
-   GeneralIntro/LPS/BookStopsHere.rst
 
 Simple Python Data
 ::::::::::::::::::
@@ -26,6 +35,7 @@ Simple Python Data
 .. toctree::
    :maxdepth: 2
 
+   GeneralIntro/LPS/BookStopsHere.rst
    SimplePythonData/intro-VariablesExpressionsandStatements.rst
    SimplePythonData/ValuesandDataTypes.rst
    SimplePythonData/Typeconversionfunctions.rst

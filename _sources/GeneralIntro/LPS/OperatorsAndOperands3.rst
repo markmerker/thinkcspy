@@ -186,8 +186,6 @@ Exercise 6.
 
     
 
-
-
 .. index:: PEMDAS, precedence
 
 |
