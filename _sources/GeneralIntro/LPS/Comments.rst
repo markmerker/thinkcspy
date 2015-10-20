@@ -25,8 +25,8 @@
    :prefix: lps-com-
    :start: 1
 
-Comments
---------
+Using Comments
+-------------------
 
 As programs get bigger and more complicated, they get more difficult to read.
 Formal languages are dense, and it is often difficult to look at a piece off
@@ -39,7 +39,7 @@ reader - it is completely ignored by the interpreter.
 In Python, the `#` token starts a comment.  The rest of the line is ignored.
 Here is a new version of *Hello, World!*.
 
-.. activecode:: ch01_3
+.. activecode:: lps-com-code1
 
     #---------------------------------------------------
     # This demo program shows off how elegant Python is!
@@ -76,11 +76,10 @@ Let's take a look at some exercises from the previous lesson, but this time with
 **Exercise A.**
     Find the average of the numbers  ``27.1, 18.5, 0 and 19``.  When you write the code, follow these steps
     
-    
+
 Answer 1.
 
 .. activecode:: lps-com-code2
-    :nocodelens:
 
     # add the numbers
     total = 27.1 + 18.5 + 0 + 19
@@ -100,8 +99,7 @@ Try doing the next exercise, this time commenting your code.
 
 The time is 9:23:00 AM.  How many seconds has it been since midnight?
 
-.. activecode:: lps-com-code2
-    :nocodelens:
+.. activecode:: lps-com-code3
 
     # calculate the total minutes since midnight
     

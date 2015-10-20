@@ -27,29 +27,19 @@ General Introduction
    GeneralIntro/LPS/OperatorsAndOperands3.rst
    GeneralIntro/LPS/Comments.rst
    GeneralIntro/LPS/VariableNamesandKeywords.rst
+   GeneralIntro/LPS/Input.rst
    GeneralIntro/LPS/Glossary.rst
 
-Simple Python Data
-::::::::::::::::::
+
+Python Turtle Graphics
+:::::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   PythonTurtle/LPS/HelloYoungTurtles.rst
+   PythonTurtle/LPS/OurFirstTurtleProgram.rst
    GeneralIntro/LPS/BookStopsHere.rst
-   SimplePythonData/intro-VariablesExpressionsandStatements.rst
-   SimplePythonData/ValuesandDataTypes.rst
-   SimplePythonData/Typeconversionfunctions.rst
-   SimplePythonData/Variables.rst
-   SimplePythonData/VariableNamesandKeywords.rst
-   SimplePythonData/StatementsandExpressions.rst
-   SimplePythonData/OperatorsandOperands.rst
-   SimplePythonData/Input.rst
-   SimplePythonData/OrderofOperations.rst
-   SimplePythonData/Reassignment.rst
-   SimplePythonData/UpdatingVariables.rst
-   SimplePythonData/Glossary.rst
-   SimplePythonData/Exercises.rst
-
 
 Debugging Interlude 1
 :::::::::::::::::::::

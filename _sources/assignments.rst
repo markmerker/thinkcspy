@@ -33,5 +33,5 @@ Python Problems 1 - due Monday, October 19.
    
     Operators and Operands Part3: :ref:`Exercise 4 <lps-oao3-code7>`, :ref:`Exercise 5 <lps-oao3-code8>`, :ref:`Exercise 6 <lps-oao3-code9>`
     
-    Comments: :ref:`Exercise A <lps-com-code2>`, :ref:`Exercise B <lps-com-code3>`
+    Using Comments: :ref:`Exercise A <lps-com-code2>`, :ref:`Exercise B <lps-com-code3>`
 
