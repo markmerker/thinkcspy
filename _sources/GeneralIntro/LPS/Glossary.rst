@@ -28,8 +28,14 @@ Glossary
     Assignment
         setting the value of a variable.  This is done using an equal **=** sign.  Example: x = 12
 
+    Camel case
+        A style of names variables where each internal word is captialized: ``priceOfTeaInChina``
+
     Character 
         A single piece of text.  Examples:   A  z  5  +  ,
+
+    Comment
+        Text in the program for code writers and readers, ignored by python.
 
     CPU
         The Central Processing Unit, the chip inside the computer that actually executes the programs.
@@ -50,12 +56,23 @@ Glossary
         Code that is called using a name, and perenthesis for passing in data. (A more formal definition will come later).
         Functions we have encountered include ``print(),  type(),  abs(), str(), int(), float()``
 
+    import
+        A statement used to include a library (or module) in your program. 
+
+    input()
+        A function that gets user keyboard input.
 
     Input Device
         A device with which a user can send information into the computer.  Example: a keyboard.
 
     int
         python data type for integers, whole numbers.
+
+    Keyword
+        A word reserved for the python language, and illegal to use as a variable name, such as "if", "and" and "for".
+
+    module
+        A python library that adds more functionality to python.
 
     Operator
         The symbol ( +, -, *, **, etc.) in an expression that tells what do the numbers.
@@ -84,9 +101,12 @@ Glossary
     str
         python data type for text strings.
 
+    turtle
+        A python object that can be used for drawing.
+        
     Type (or Data Type)
         The data type of an item. Examples: int, float, str
 
     Variable
-        A named entity the holds a value.
+        A named entity the holds a value or an object.
 

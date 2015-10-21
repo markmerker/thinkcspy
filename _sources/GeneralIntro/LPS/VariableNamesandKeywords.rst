@@ -105,3 +105,15 @@ When choosing a variable name, |NOTE| :notetext:`use a name that will help you, 
 
 .. index:: keyword, variable names
 
+|
+|
+|
+
+:sctnhead:`Glossary and Terms`
+
+Camel case
+    A style of names variables where each internal word is captialized: ``priceOfTeaInChina``
+
+Keyword
+    A word reserved for the python language, and illegal to use as a variable name, such as "if", "and" and "for".
+    

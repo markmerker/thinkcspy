@@ -14,16 +14,13 @@
 Our First Turtle Program
 ------------------------
 
-Let's try a couple of lines of Python code to create a new turtle and
-start drawing a simple figure like a rectangle.
-We will refer to our first turtle using the variable name alex, but remember that you can choose any name you wish as long
-as you follow the naming rules
-from the previous chapter.
+Below is a simple program that does some turtle graphics.  The are a few lines of code needed to set things up.  We will go into detail on them later.  For now, we will just use them so we can start drawing.
 
-The program as shown will only draw the first two sides of the rectangle.
-After line 4 you will have a straight line going from the center of the
-drawing canvas towards the right.  After line 6, you will have a canvas with a
-turtle and a half drawn rectangle.  Press the run button to try it and see.
+Line 3 creates a turtle named alec.  It is in the center of the screen, facing right.  For the rest of the code, myrtle follows various commands that cause it to move around the screen, drawing as it goes.  
+
+The program as shown will only draw the first two sides of the rectangle.  See if you can figure out how to draw the rest of the rectangle.
+
+
 
 .. activecode:: ch03_1
     :tour_1: "Overall Tour"; 1-6: Example01_Tour01_Line01; 3: Example01_Tour01_Line02; 4: Example01_Tour01_Line03; 5: Example01_Tour01_Line04; 6: Example01_Tour01_Line05;
@@ -33,10 +30,10 @@ turtle and a half drawn rectangle.  Press the run button to try it and see.
 
     import turtle               # allows us to use the turtles library
     wn = turtle.Screen()        # creates a graphics window
-    alex = turtle.Turtle()      # create a turtle named alex
-    alex.forward(150)           # tell alex to move forward by 150 units
-    alex.left(90)               # turn by 90 degrees
-    alex.forward(75)            # complete the second side of a rectangle
+    alec = turtle.Turtle()      # create a turtle named alex
+    alec.forward(150)           # tell alec to move forward by 150 units
+    alec.left(90)               # turn by 90 degrees
+    alec.forward(75)            # complete the second side of a rectangle
 
 
 

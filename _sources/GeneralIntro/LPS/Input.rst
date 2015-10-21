@@ -26,10 +26,75 @@
    :prefix: lps-input-
    :start: 1
 
-Input
-------
+Print & Input 
+---------------
 
-Consider this program, which we have seen before.  
+Print
+======
+
+We have used the ``print()`` function for a while now.  Let's take a close look at how it works.  ``print`` can take from zero to as many expressions as you like.  Each of these expressions is separated by a comma. ``print`` will output the evaluation of each expression to the monitor, separated by spaces.
+
+    print( *expression*, *expression*, *expression*, ... )
+    
+While we have used mostly simple expressions, like strings, numbers and variables, any legal expression can be used.  Here are some complicated expressions we have looked earlier in Unit One::
+
+    1 + 3.45 + 21
+    "hello" + " " + "goodbye"
+    hi + mom
+    abs(-12) + abs(12)
+    str( 19 ) + str ( 23.8 )
+    1+2+3+4+5+6+7+8+9+10
+        
+Any of these expressions can be used in a print statement. 
+ 
+What will this code output to the screen?
+ 
+.. activecode:: lps_input_code1a
+
+    hi = 12
+    mom = 13 
+    print("Hello", 1 + 3.45 + 21, "hello" + " " + "goodbye",
+        hi + mom, str( 19 ) + str ( 23.8 ),  abs(-12) + abs(12),
+        1+2+3+4+5+6+7+8+9+10 )
+        
+**Things to notice**
+
+- Any expression can be put in a print statement
+
+- If a statement isn't finished (for example, parens aren't closed), it can be continued on another line.  
+
+
+:sctnhead:`Input`
+
+The ``input`` function prompts the user, and returns thir response.
+
+.. sourcecode:: python
+
+    n = input("Please enter your name: ")
+
+This code will put up a dialogue box.  Whatever the user types will be loaded into the variable by the assingment operator ``=``.  Try it.
+
+.. activecode:: lps_input_code2
+
+    n = input("Please enter your name: ")
+    print("Hello", n)
+
+
+*What would happen if we invoke input, but don't store the result in a variable?*  
+
+The dialogue box would run, but the user's answer would never be stored anywhere. It would be as if it never ran.
+
+.. activecode:: lps_input_code3
+
+    n = ""
+    input("Please enter your name: ")
+    print("Hello", n)
+
+
+It is very important to note that |NOTE| :notetext:`the input function always returns a string value`, (data type ``str``).  Even if you asked the user to enter their age, you would get back a string like ``"17"``, not the integer 17.  **Since a string is returned, if you want a number, you must convert the type (to ``int`` or ``float``) before using it.**
+
+
+Consider this program, which we have seen before:  
 
 .. sourcecode:: python
 
@@ -38,28 +103,9 @@ Consider this program, which we have seen before.
     seconds = total_time % 60
     print( total_time , "seconds is", minutes , "minutes and", seconds , "seconds." )
 
-What does it calculate?
+Let's change this program so that the user can input the total time value.  We prompt the user for a value, but then we must convert the string to an integer.  From there the process is the same as before.  
 
-This program works fine but it only works with one value, 987.  What if we wanted to rewrite the program so the user can enter any value they wish for the number of seconds.  The program could then print the proper result for that user-entered value.
-
-In order to do this, we use built-in function called ``input``.  Here is a simple example of ``input``.
-
-.. sourcecode:: python
-
-    n = input("Please enter your name: ")
-
-The input function allows the user to provide a **prompt string**.  When the function is executed, it creates a prompt box on the screen, with the prompt, and a place for the user to enter their input. 
-
-.. activecode:: lps_input_code2
-
-    n = input("Please enter your name: ")
-    print("Hello", n)
-
-It is very important to note that the ``input`` function returns a **string** value, (type ``str``).  Even if you asked the user to enter their age, you would get back a string like ``"17"``, not the integer 17.  **Since a string is returned, if you want a number, you must convert the type (to ``int`` or ``float``) before using it.**
-
-To modify our previous program, we will add an input statement to allow the user to enter the number of seconds.  Then we will convert that string to an integer.  From there the process is the same as before.  
-
-.. activecode:: lps_input_code2
+.. activecode:: lps_input_code4
 
     str_seconds = input("Please enter the number of seconds you wish to convert")
     total_time = int( str_seconds)
@@ -69,8 +115,6 @@ To modify our previous program, we will add an input statement to allow the user
 
 The variable ``str_seconds`` refers to the strings that is entered by the user. If your code said ``minutes = str_seconds // 60``, it would cause an error, because you would be dividing a string by an integer.
 
-
-**Check your understanding**
 
 .. mchoice:: test_question2_7_1
    :answer_a: &lt;class 'str'&gt;
@@ -92,5 +136,28 @@ The variable ``str_seconds`` refers to the strings that is entered by the user. 
      print ( type(n) )
 
 
-.. index:: input
+
+Try it by pressing "Show"
+
+.. reveal:: lps-input-rev2
+    :showtitle:Show 
+
+    .. activecode:: lps_input_code3
+    
+        # user should type in 18
+        n = input("Please enter your age: ")
+        print ( type(n) )
+
+    
+
+.. index:: input, print, expression
+
+|
+|
+|
+
+:sctnhead:`Glossary and Terms`
+
+input
+    A function that gets user keyboard input.
 

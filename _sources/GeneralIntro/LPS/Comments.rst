@@ -116,3 +116,11 @@ The time is 9:23:00 AM.  How many seconds has it been since midnight?
 
 .. index:: #, comments
 
+:sctnhead:`Glossary and Terms`
+
+#
+    Character that begins a comment for the rest of the lie.
+
+Comment
+    Text in the program for code writers and readers, ignored by python.
+

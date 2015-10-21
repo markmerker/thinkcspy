@@ -107,4 +107,18 @@ Turtle graphics, as it is known, is based on a very simple idea. Imagine that yo
 
 
 .. index:: turtle, module
+|
+|
+|
 
+:sctnhead:`Glossary and Terms`
+
+import
+    A statement used to include a library (or module) in your program. 
+    
+module
+    A python library that adds more functionality to python.
+    
+turtle
+    A python object that can be used for drawing.
+        
