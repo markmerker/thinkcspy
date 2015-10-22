@@ -66,13 +66,13 @@ What will this code output to the screen?
 
 :sctnhead:`Input`
 
-The ``input`` function prompts the user, and returns thir response.
+The ``input`` function prompts the user, and returns their response.
 
 .. sourcecode:: python
 
     n = input("Please enter your name: ")
 
-This code will put up a dialogue box.  Whatever the user types will be loaded into the variable by the assingment operator ``=``.  Try it.
+This code will put up a dialogue box.  Whatever the user types will be loaded into the variable by the assignment operator ``=``.  Try it.
 
 .. activecode:: lps_input_code2
 

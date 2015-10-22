@@ -68,10 +68,16 @@ Glossary
     int
         python data type for integers, whole numbers.
 
+    invoke
+        To call a function or method.
+
     Keyword
         A word reserved for the python language, and illegal to use as a variable name, such as "if", "and" and "for".
 
-    module
+    Method
+        A function that is defined and used inside an object, like a turtle.
+    
+    Module
         A python library that adds more functionality to python.
 
     Operator
