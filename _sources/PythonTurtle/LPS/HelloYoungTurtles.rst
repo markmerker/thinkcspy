@@ -8,7 +8,7 @@
     License".
 
 
-.. |NOTE| image:: ../GeneralIntro/LPS/Figures/pencil.png
+.. |NOTE| image:: Figures/pencil.png
 
 .. role:: notetext
 
