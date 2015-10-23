@@ -54,12 +54,12 @@ We saw that the turtle has **methods** we can use to make it do things.  The scr
 Method      Short   Parameters       Examples      Notes 
             name
 =========== ======= =============== ============== =================================================================================   
-bgcolor             name            bgcolor("red")  Set backround color to a name, using the same names as turtle method color.
-bgcolor             r,g,b           bgcolor(1,5,9)  Set backround color to a name, using the same values as turtle method color. green and blue.
+bgcolor             name            bgcolor("red")  Set background color to a name, using the same names as turtle method color.
+bgcolor             r,g,b           bgcolor(1,5,9)  Set background color to a name, using the same values as turtle method color. green and blue.
 exitonclick                         exitonclick()   Close the program, shutting the window, if user clicks on the screen.
 =========== ======= =============== ============== =================================================================================   
 
-The code belowis like code in the prevoius lesson, but it invokes the two screen methods.
+The code below is like code in the previous lesson, but it invokes the two screen methods.
 
 .. activecode:: lps_ct_code1
     :nocodelens:
@@ -84,7 +84,7 @@ The code belowis like code in the prevoius lesson, but it invokes the two screen
 
 **Screen Layout**
 
-The screen created in this environment is 400 pixels wide and 400 pixels high.  The origin (0,0) is at the center of the screen, so the bottom-left cornetr is at (-200,-200), and the top-right corner is at (200,200).
+The screen created in this environment is 400 pixels wide and 400 pixels high.  The origin (0,0) is at the center of the screen, so the bottom-left corner is at (-200,-200), and the top-right corner is at (200,200).
 
 Notice also that  the directions on the screen are labeled ``north, south, east`` and ``west``.
 
@@ -95,17 +95,17 @@ You can move the turtle using these coordinates, and the methods listed below.
 =========== ======= =============== ============= =================================================================================   
         More Turtle Methods
 -----------------------------------------------------------------------------------------------------------------------------------   
-Method      Short   Paramters       Examples      Notes 
+Method      Short   Parameters       Examples      Notes 
             name
 =========== ======= =============== ============= =================================================================================   
-setpos      goto()  x,y             setpos(10,40) Move turtle to coorinate (x,y).
-setx                x               setx(-90)     Move turtle to coorinate with new x value, leaving y the same.
-sety                y               sety(23)      Move turtle to coorinate with new y value, leaving x the same.
+setpos      goto()  x,y             setpos(10,40) Move turtle to coordinate (x,y).
+setx                x               setx(-90)     Move turtle to coordinate with new x value, leaving y the same.
+sety                y               sety(23)      Move turtle to coordinate with new y value, leaving x the same.
 =========== ======= =============== ============= =================================================================================   
 
 **Exercise 1.**
 
-Let's use the turtle coordiante methods to draw a square.  Add some steps to finish the square.  Save the code when your are done.
+Let's use the turtle coordinate methods to draw a square.  Add some steps to finish the square.  Save the code when your are done.
 
 .. activecode:: lps_ct_code1
     :above:
