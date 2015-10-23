@@ -10,7 +10,7 @@ Assignments
    :maxdepth: 2
    
    assignments.rst
-
+   GeneralIntro/LPS/Glossary.rst
 
 General Introduction
 ::::::::::::::::::::
@@ -28,7 +28,7 @@ General Introduction
    GeneralIntro/LPS/Comments.rst
    GeneralIntro/LPS/VariableNamesandKeywords.rst
    GeneralIntro/LPS/Input.rst
-   GeneralIntro/LPS/Glossary.rst
+   
 
 
 Python Turtle Graphics
@@ -39,6 +39,7 @@ Python Turtle Graphics
 
    PythonTurtle/LPS/HelloYoungTurtles.rst
    PythonTurtle/LPS/OurFirstTurtleProgram.rst
+   PythonTurtle/LPS/ControllingTurtles.rst
    GeneralIntro/LPS/BookStopsHere.rst
 
 Debugging Interlude 1

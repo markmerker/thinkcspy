@@ -72,6 +72,8 @@ By re-using the commands already in the program, you should be able to draw a co
 The Turtle object provides lots different methods you can use while drawing.  A few are listed below.  
 
 =========== ======= =============== ============= =================================================================================   
+        Turtle Methods
+-----------------------------------------------------------------------------------------------------------------------------------   
 Method      Short   Paramters       Examples      Notes 
             name
 =========== ======= =============== ============= =================================================================================   
@@ -85,7 +87,7 @@ pendown     down()                  pendown()     Put pen to paper, e.g. draw wh
 penup       up()                    penup()       Lift pen from paper, e.g. don't draw when turtle moves.
 pensize     width() pixels          pensize(12)   Make pen *pixels* wide.
 color               name            color("red")  Set pen color to a name. Some names work, some don't.
-color               r,b,g           color(1,5,9)  Set color using values from 0 to 255 for red, green and blue.
+color               r,g,b           color(1,5,9)  Set color using values from 0 to 255 for red, green and blue.
 =========== ======= =============== ============= =================================================================================   
 
 

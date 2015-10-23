@@ -21,6 +21,8 @@
 .. raw:: html
 
     <style> .sctnhead {color:black; font-weight: bold; font-size: 140%; } </style>
+
+.. |MOD_LOOK| image:: Figures/mod_look.png
     
 .. qnum::
    :prefix: lps-oao2-
@@ -91,7 +93,7 @@ We figured out in the last lesson the three different kinds of arithmetic.  Each
 
 In the sixties, one of the hottest fashion fads was called "Mod".  It was short for "modern", which, as you can see, it totally was. 
 
-.. image:: ./figures/mod_look_2.jpg
+|MOD_LOOK| 
 
 **The "mod look" has nothing to do with modulus arithmetic.**
 
