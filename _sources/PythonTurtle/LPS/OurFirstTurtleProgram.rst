@@ -26,8 +26,8 @@
    :prefix: lps_oftp-
    :start: 1
 
-Our First Turtle Program
-------------------------
+2. Our First Turtle Program
+--------------------------------
 
 Below is a simple program that does some turtle graphics.  The are a few lines of code needed to set things up.  We will go into detail on them later.  For now, we will just use them so we can start drawing.
 

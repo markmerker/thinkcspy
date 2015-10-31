@@ -29,7 +29,7 @@
    :prefix: lps-ct-
    :start: 1
 
-Controlling Turtles
+3. Controlling Turtles
 ------------------------
 
 :sctnhead:`Objects`

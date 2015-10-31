@@ -40,7 +40,9 @@ Python Turtle Graphics
    PythonTurtle/LPS/HelloYoungTurtles.rst
    PythonTurtle/LPS/OurFirstTurtleProgram.rst
    PythonTurtle/LPS/ControllingTurtles.rst
+   PythonTurtle/LPS/InstancesAHerdofTurtles.rst
    GeneralIntro/LPS/BookStopsHere.rst
+   PythonTurtle/LPS/Unit2Warmups.rst
 
 Debugging Interlude 1
 :::::::::::::::::::::

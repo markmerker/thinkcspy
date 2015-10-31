@@ -35,3 +35,9 @@ Python Problems 1 - due Monday, October 19.
     
     Using Comments: :ref:`Exercise A <lps-com-code2>`, :ref:`Exercise B <lps-com-code3>`
 
+
+
+
+Playgrounds
+   :ref:`Controlling <lps_ct_code_play>`
+    
