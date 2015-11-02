@@ -39,5 +39,5 @@ Python Problems 1 - due Monday, October 19.
 
 Unit 2 Lab 1 - due Wednesday, October 21.
     
-    :ref:`Exercise 1 <lps_u2lab_code1>`
+    :ref:`Exercise 1 <lps_u2lab_code1>`, :ref:`Exercise 2 <lps_u2lab_code2>`, :ref:`Exercise 3 <lps_u2lab_code3>`, :ref:`Exercise 4 <lps_u2lab_code4>`, :ref:`EXTRA CREDIT Exercise 5 <lps_u2lab_code5>`, 
 
