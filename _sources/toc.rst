@@ -12,7 +12,7 @@ Assignments
    assignments.rst
    GeneralIntro/LPS/Glossary.rst
 
-General Introduction
+I. General Introduction
 ::::::::::::::::::::
 
 .. toctree::
@@ -31,7 +31,7 @@ General Introduction
    
 
 
-Python Turtle Graphics
+II. Python Turtle Graphics
 :::::::::::::::::::::::
 
 .. toctree::
@@ -42,7 +42,7 @@ Python Turtle Graphics
    PythonTurtle/LPS/ControllingTurtles.rst
    PythonTurtle/LPS/InstancesAHerdofTurtles.rst
    GeneralIntro/LPS/BookStopsHere.rst
-   PythonTurtle/LPS/Unit2Warmups.rst
+   PythonTurtle/LPS/Unit2Labs.rst
 
 Debugging Interlude 1
 :::::::::::::::::::::

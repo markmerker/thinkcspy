@@ -37,7 +37,7 @@ Python Problems 1 - due Monday, October 19.
 
 
 
-
-Playgrounds
-   :ref:`Controlling <lps_ct_code_play>`
+Unit 2 Lab 1 - due Wednesday, October 21.
     
+    :ref:`Exercise 1 <lps_u2lab_code1>`
+
