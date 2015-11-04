@@ -40,7 +40,7 @@ II. Python Turtle Graphics
    PythonTurtle/LPS/HelloYoungTurtles.rst
    PythonTurtle/LPS/OurFirstTurtleProgram.rst
    PythonTurtle/LPS/ControllingTurtles.rst
-   PythonTurtle/LPS/TheForLoop.rst
+   PythonTurtle/LPS/functions.rst
    GeneralIntro/LPS/BookStopsHere.rst
    PythonTurtle/LPS/Unit2Labs.rst
 
