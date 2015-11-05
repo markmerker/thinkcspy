@@ -53,7 +53,7 @@ Use this stair case code for reference
     drawStepDown()
     drawStepDown()
 
-:sctnhead:`Each of the following pieces of code is supposed to draw 2 squares,but fails to run.  Find and correct the problem with each.  Use the run button, and the python errors to help you find the problem.`
+:sctnhead:`Each of the following pieces of code is supposed to a square, but fails.  Find and correct the problem with each.  Use the run button, and the python errors to help you find the problem.`
 
 
 **Launch 1.**
@@ -76,15 +76,7 @@ Use this stair case code for reference
        t.left(90)
        t.foward(size)
        t.left(90)
-        
-    t.penup()
-    t.goto( -100, 0 )
-    t.pendown()
-    drawSquare()
-    
-    t.penup()
-    t.goto( 0, 0 )
-    t.pendown()
+
     drawSquare()
  
  
@@ -109,14 +101,6 @@ Use this stair case code for reference
       t.forward(size)
       t.left(90)
         
-    t.penup()
-    t.goto( -100, 0 )
-    t.pendown()
-    drawSquare()
-    
-    t.penup()
-    t.goto( 0, 0 )
-    t.pendown()
     drawSquare()
     
     
@@ -142,15 +126,8 @@ Use this stair case code for reference
       t.forward("size")
       t.left(90)
         
-    t.penup()
-    t.goto( -100, 0 )
-    t.pendown()
     drawSquare()
     
-    t.penup()
-    t.goto( 0, 0 )
-    t.pendown()
-    drawSquare()
     
 **Launch 4.**
 
@@ -173,12 +150,5 @@ Use this stair case code for reference
       t.forward(size)
       t.left(90)
         
-    t.penup()
-    t.goto( -100, 0 )
-    t.pendown()
-    
-    t.penup()
-    t.goto( 0, 0 )
-    t.pendown()
     
         
