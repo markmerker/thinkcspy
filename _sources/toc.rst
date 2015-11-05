@@ -43,6 +43,7 @@ II. Python Turtle Graphics
    PythonTurtle/LPS/functions.rst
    GeneralIntro/LPS/BookStopsHere.rst
    PythonTurtle/LPS/Unit2Labs.rst
+   PythonTurtle/LPS/Unit2Launches.rst
 
 Debugging Interlude 1
 :::::::::::::::::::::
