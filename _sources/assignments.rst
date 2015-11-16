@@ -28,6 +28,12 @@
 
 Class Assignments
 -------------------
+Function Returns - due Wednesday November  18
+    :ref:`Exercise 1 <lps_func2_code1>`, :ref:`Exercise 2 <lps_func2_code2>`, :ref:`Exercise 3 <lps_func2_code3>`, :ref:`Exercise 4 <lps_func2_code4>`
+
+Unit 2 Lab 1 - due Wednesday, October 21.
+    
+    :ref:`Exercise 1 <lps_u2lab_code1>`, :ref:`Exercise 2 <lps_u2lab_code2>`, :ref:`Exercise 3 <lps_u2lab_code3>`, :ref:`Exercise 4 <lps_u2lab_code4>`, :ref:`EXTRA CREDIT Exercise 5 <lps_u2lab_code5>`, 
 
 Python Problems 1 - due Monday, October 19.
    
@@ -35,9 +41,4 @@ Python Problems 1 - due Monday, October 19.
     
     Using Comments: :ref:`Exercise A <lps-com-code2>`, :ref:`Exercise B <lps-com-code3>`
 
-
-
-Unit 2 Lab 1 - due Wednesday, October 21.
-    
-    :ref:`Exercise 1 <lps_u2lab_code1>`, :ref:`Exercise 2 <lps_u2lab_code2>`, :ref:`Exercise 3 <lps_u2lab_code3>`, :ref:`Exercise 4 <lps_u2lab_code4>`, :ref:`EXTRA CREDIT Exercise 5 <lps_u2lab_code5>`, 
 
