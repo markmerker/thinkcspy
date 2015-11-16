@@ -29,8 +29,8 @@
 
 
 
-Functions
----------
+4. Functions
+---------------
 
 
 In Python, a **function** is a named sequence of statements

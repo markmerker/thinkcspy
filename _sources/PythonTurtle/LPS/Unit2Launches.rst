@@ -91,7 +91,7 @@ Use this stair case code for reference
     t = turtle.Turtle()         
 
     def drawSquare():
-       size = 50
+      size = 50
       t.forward(size)
       t.left(90)
       t.forward(size)
@@ -100,7 +100,7 @@ Use this stair case code for reference
       t.left(90)
       t.forward(size)
       t.left(90)
-        
+      
     drawSquare()
     
     
