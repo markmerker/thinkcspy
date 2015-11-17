@@ -164,57 +164,56 @@ Prompt the user for four numbers, then display the numbers and their average.
 
 
 
-**Exercise 3. Special prompt and average**
+**Exercise 3. Back to Triangle One**
 
-This time, make the code a little neater by writing a new function ``inputFloat``.  This  function will take a parameter as a prompt, use the ``input()`` function to get the user input, and return a float instead of a string. Once again, copy ``getAverage`` from a previous exercise.
+Let's revisit drawing a triangle.  In this version, the turtle that does the drawing is a parameter.   The size of the triangle is also a parameter.  
+
+You must write the code that moves the turtle before drawing a triangle.
 
 
 .. activecode:: lps_func2_code3
+    :nocodelens:
     :above:
+
+        #SET UP
+    import turtle
+    wn = turtle.Screen()
+    wn.exitonclick()
+    t = turtle.Turtle()
 
 
     # DEFINE FUNCTIONS
-    def getAverage
+    def drawTriangle( tur, sz ):
+        tur.forward( sz )
+        tur.left( 120 )
+        tur.forward( sz )
+        tur.left( 120 )
+        tur.forward( sz )
+        tur.left( 120 )
 
-
-
-    def inputFloat( prompt ):
-        ## get inpur from user
+    def moveTurtle( turtl, x , y ):
+        pass
+        ## Raise pen, move turtle to x,y and lower pen
         
-        ## convert input to float, and return it.
-    
-    
-    ## set values
-    w = inputFloat( "Enter first number" )
-    
 
-    average = 
-        ## print numbers and their average
-    print( "Average of",w, x, y, "and", z, "is", ???? )
+    size = input( "Enter size of triangle" )
+    x = input ("Enter x coordinate") 
+    y = input ("Enter y coordinate") 
+
+    moveTurtle( t, int(x), int(y) )
+    drawTriangle( t, size )
 
 
 
+**Exercise 4. A single function**
 
-**Exercise 4. The moving triangle**
+Copy the function moveTurtle from exercise 3.  Now add a new function.  The goal of this function is to provide a lot features in a single call. 
 
-In a previous lesson, we wrote a function for drawing a triangle.  Some of us wrote a function that moved the turtle.  Now we are going to use those functions, and write a new function that will except parameters telling it what color, size and where to draw a triangle.
-
-**Functions already in the code**
-
-    drawTriangle( turtl, size )
-        given a turtle and a size, draws a triangle with that turtle.
-    
-    moveTurtle( turtl, x, y)
-        given a turtle, and an x,y coordinates, move the turtle to that spot without drawing.
-
-    inputInt( prompt )
-        prompt the user and return what they type, after converting it to an int.
-
-**Function for you to fill in  and call**
 
     drawColoredTriangleAt( turtl, x, y, size, color )
         given a turtle, x-y coordinates, a size and a color, locate the turtle, set its color, then draw a triangle of the requested size.
 
+    Reminder: the function turtle.color( color_name ) sets the turtles color.
 
 .. activecode:: lps_func2_code4
     :nocodelens:
@@ -231,9 +230,7 @@ In a previous lesson, we wrote a function for drawing a triangle.  Some of us wr
         turtl.left( 120 )
 
     def moveTurtle( turtl, x , y ):
-        turtl.penup()
-        turtl.goto( x, y )
-        turtl.pendown()
+        ??????
         
     def drawColoredTriangleAt( turtl, x, y, size, color ):
         ## set turtles color
@@ -243,10 +240,6 @@ In a previous lesson, we wrote a function for drawing a triangle.  Some of us wr
         ## draw the triangle
         
 
-    def inputInt( prompt ):
-        nstr = input( prompt )
-        n = int( nstr )
-        return n
         
         #SET UP
     import turtle
@@ -257,8 +250,11 @@ In a previous lesson, we wrote a function for drawing a triangle.  Some of us wr
         ## Get user input
     color = input( "Enter triangle color" )
     x = inputInt( "Enter x coordinate" ) 
+    x = int( x )
     y = inputInt( "Enter y coordinate" ) 
+    y = int( y )
     size = inputInt( "Enter triangle size" )
+    size = int( size )
         
         ## draw the triangle
     
