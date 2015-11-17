@@ -103,7 +103,6 @@ Modify this code so the function getAverage() calculates the function for the 4 
 HINT: Remember to use spaces, not tabs when indenting code.
 
 .. activecode:: lps_func2_code1
-    :nocodelens:
     :above:
 
 
@@ -144,7 +143,6 @@ HINT: When you run your code, it may crash due to a type problem.  Remember the 
 Prompt the user for four numbers, then display the numbers and their average.
     
 .. activecode:: lps_func2_code2
-    :nocodelens:
     :above:
 
 
@@ -172,7 +170,6 @@ This time, make the code a little neater by writing a new function ``inputFloat`
 
 
 .. activecode:: lps_func2_code3
-    :nocodelens:
     :above:
 
 

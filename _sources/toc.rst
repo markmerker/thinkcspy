@@ -42,10 +42,10 @@ II. Python Turtle Graphics
    PythonTurtle/LPS/ControllingTurtles.rst
    PythonTurtle/LPS/functions.rst
    PythonTurtle/LPS/functions_2.rst
-   PythonTurtle/LPS/TheForLoop.rst
    GeneralIntro/LPS/BookStopsHere.rst
    PythonTurtle/LPS/Unit2Labs.rst
    PythonTurtle/LPS/Unit2Launches.rst
+   PythonTurtle/LPS/Unit2Lab2.rst
 
 Debugging Interlude 1
 :::::::::::::::::::::
