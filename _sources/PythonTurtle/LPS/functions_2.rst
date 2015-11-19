@@ -98,7 +98,11 @@ Here is some code that will defines and executes some simple commands.  This cod
 
 ::
 
-Modify this code so the function getAverage() calculates the function for the 4 numbers it is passed, and prints the results.
+**Your task**
+
+- Modify this code so the function getAverage() calculates the function for the 4 numbers it is passed, and prints the results.
+
+- Wherever you see four #s ``####`` there is an instruction to add or modify some code.
 
 HINT: Remember to use spaces, not tabs when indenting code.
 
@@ -108,11 +112,11 @@ HINT: Remember to use spaces, not tabs when indenting code.
 
     # DEFINE FUNCTION
     def getAverage( a, b, c, d ):
-        ## calculate the sum of the numbers
+        #### calculate the sum of the numbers
         sum = ?????
-        ## calculate the average by dividing the sum by 4.0.  
+        #### calculate the average by dividing the sum by 4.0.  
         avg = ?????
-        ## return the average
+        #### return the average
        
   
     ## starting values
@@ -120,15 +124,19 @@ HINT: Remember to use spaces, not tabs when indenting code.
     x = 27
     y = 12
     z = 29
+    #### fill in parameters for getAverage
     average = getAverage( ???? )
+    
         ## print numbers and their average
     print( "Average of",w, x, y, "and", z, "is", ????? )
     
     ## try  some other values
     y = 99
     z = 50
+    #### fill in parameters for getAverage
     average = getAverage( ???? )
-        ## print numbers and their average
+
+    #### finish the print statement
     print( "Average of",w, x, y, "and", z, "is", ???? )
     
 
@@ -148,18 +156,21 @@ Prompt the user for four numbers, then display the numbers and their average.
 
     # DEFINE FUNCTION
     def getAverage( a, b, c, d ):
+        #### copy getAverage code here.
 
 
-    ## set values of w, x, y and z
+    #### set values of w, x, y and z
     w = input( "Enter first number" )
     x = input( "Enter 2nd number" )
-    y = ???
-    z = ???
+    y = 
+    z = 
     
     w = int( w )
 
-    average = getAverage( ???? )
-        ## print numbers and their average
+    #### fill in parameters for getAverage
+    average = getAverage(  )
+        
+    #### finish the print statement
     print( "Average of",w, x, y, "and", z, "is", ???? )
 
 
@@ -168,8 +179,19 @@ Prompt the user for four numbers, then display the numbers and their average.
 
 Let's revisit drawing a triangle.  In this version, the turtle that does the drawing is a parameter.   The size of the triangle is also a parameter.  
 
-You must write the code that moves the turtle before drawing a triangle.
+**Things to notice**
 
+- The functions take a turtle as a parameter.  To use turtle functions, the prefix is not turtle, but the name of the parameter.  Example: ``tur.forward( sz )``
+
+- Anywhere you need to add code, there is a ``####`` comment to guide you
+
+**Your Task**
+
+- Complete the code for the function ``moveTurtle``.  Remember the names of the turtle methods are penup, pendown and goto.
+
+- Fix all **type** problems.  Some turtle methods, if passed a string instead of a number will act as if they have been passed a 0.  
+
+- Check to make sure your triangles are drawn in the correct place, remembering the center of the screen is (0,0).
 
 .. activecode:: lps_func2_code3
     :nocodelens:
@@ -192,28 +214,39 @@ You must write the code that moves the turtle before drawing a triangle.
         tur.left( 120 )
 
     def moveTurtle( turtl, x , y ):
-        pass
-        ## Raise pen, move turtle to x,y and lower pen
+        #### Raise pen
+        
+        #### move turtle to x,y
+        
+        #### lower pen
         
 
     size = input( "Enter size of triangle" )
     x = input ("Enter x coordinate") 
     y = input ("Enter y coordinate") 
 
-    moveTurtle( t, int(x), int(y) )
+    #### make strings ints
+    
+    
+    moveTurtle( t, x, y )
     drawTriangle( t, size )
 
 
 
 **Exercise 4. A single function**
 
-Copy the function moveTurtle from exercise 3.  Now add a new function.  The goal of this function is to provide a lot features in a single call. 
-
+In this exercise, we will be adding a new function that uses functions we have already created to do its job.  The function to add is this
 
     drawColoredTriangleAt( turtl, x, y, size, color )
         given a turtle, x-y coordinates, a size and a color, locate the turtle, set its color, then draw a triangle of the requested size.
 
-    Reminder: the function turtle.color( color_name ) sets the turtles color.
+**Your Task**
+
+- Complete the code for the function ``drawColoredTriangleAt``.  Remember that the turtle function color( color_name ) sets the turtle's color.
+
+- Fix the types of any input variables that need it.
+
+- Check to make sure your triangles are drawn in the correct place, with the correct color. 
 
 .. activecode:: lps_func2_code4
     :nocodelens:
@@ -230,14 +263,14 @@ Copy the function moveTurtle from exercise 3.  Now add a new function.  The goal
         turtl.left( 120 )
 
     def moveTurtle( turtl, x , y ):
-        ??????
+        #### copy the  code from exercise 3
         
     def drawColoredTriangleAt( turtl, x, y, size, color ):
-        ## set turtles color
+        #### set turtle's color
         
-        ## move the turtle
+        #### move the turtle
         
-        ## draw the triangle
+        #### draw the triangle
         
 
         
@@ -247,21 +280,19 @@ Copy the function moveTurtle from exercise 3.  Now add a new function.  The goal
     wn.exitonclick()
     t = turtle.Turtle()
 
-        ## Get user input
     color = input( "Enter triangle color" )
-    x = inputInt( "Enter x coordinate" ) 
-    x = int( x )
-    y = inputInt( "Enter y coordinate" ) 
-    y = int( y )
-    size = inputInt( "Enter triangle size" )
-    size = int( size )
+    xCoor = input( "Enter x coordinate" ) 
+    yCoor = input( "Enter y coordinate" ) 
+    sz = input( "Enter triangle size" )
+
+    #### fix the datatype of x, y and size
         
-        ## draw the triangle
-    
-    drawColoredTriangleAt( ??????  )
+      
+    #### add the parameters
+    drawColoredTriangleAt(   )
 
 
-.. index:: function, parameter, argument, invoke, call 
+.. index:: return  
 
 |
 |

@@ -28,6 +28,9 @@ Glossary
     Assignment
         setting the value of a variable.  This is done using an equal **=** sign.  Example: x = 12
 
+    Body
+        The indented section of the compound statement.
+
     Camel case
         A style of names variables where each internal word is captialized: ``priceOfTeaInChina``
 
@@ -52,6 +55,9 @@ Glossary
     float
         python data type for decimal or floating point numbers.
 
+    for loop
+        A python statement that iterates through a sequence of items.
+
     Function
         Code that is called using a name, and perenthesis for passing in data. (A more formal definition will come later).
         Functions we have encountered include ``print(),  type(),  abs(), str(), int(), float()``
@@ -71,8 +77,14 @@ Glossary
     invoke
         To call a function or method.
 
+    Iteration
+        The repetition of a set of operations.
+
     Keyword
         A word reserved for the python language, and illegal to use as a variable name, such as "if", "and" and "for".
+
+    List
+        A python data type that hold a sequence of items.  Each item is a value.
 
     Method
         A function that is defined and used inside an object, like a turtle.

@@ -27,7 +27,7 @@
    :start: 1
 
 
-4. The ``for`` Loop
+6. The ``for`` Loop
 ---------------------
 
 
@@ -42,6 +42,7 @@ The **for** statement allows us to write programs that implement iteration.  It 
 
 .. sourcecode:: python
 
+    # drawing a square
     t.forward( 50)
     t.left( 90 )
     t.forward( 50)
@@ -55,158 +56,111 @@ With a for loop, this is simplified down to
 
 .. sourcecode:: python
 
+    # drawing a square
     for i in [1,2,3,4] :
         t.left( 90 )
         t.forward( 50)
 
-In python, the list of numbers in the square brackets is called a **list**.  Lists are very useful.  We will have much to say about them later.  
+In python, the sequence of numbers in the square brackets is called a **list**.  Lists are very useful.  We will have much to say about them later.  
 
-This code sets the variable i to each of the values 1, 2, 3 and 4. For each value of i, it executes the two operation t.forward() and t.left(). Hence, it repeats four times, drawing the square.
+This code sets the variable i to each of the values 1, 2, 3 and 4. For each value of i, it executes the two indented lines of code, the operations t.forward() and t.left(). Hence, it repeats four times, drawing the square.
 
-Next lesson we will study the syntax of the for loop, and different ways it can be used.  For this lesson, we will just use it for some simple repetition.
-
-Here is the layout of a standard for loop
-
-|    **for** *variable_name*  **in** *list* **:**
-|        statement
-|        statement
-|        ...
- 
-**There are several important things to know in order to use a ``for loop`` (or ``for statement``).** 
-
-- The first line sets up statement, and ends with a **:**.
-
-- *variable_name* is the variable that will be loaded with each item in the list.  It can be used in the statements.
-
-- *list* is a list of items inside square brackets **[]**.
-
-- The indented statements are called the **loop body**.  There can be one to many statements in the body. **They must all be indented to the same level, or an error will occur.** All the statements are executed each **iteration** or pass through the loop. 
-
-- The next un-indented statement ends the loop's body.
-
-
-Lets draw some polygons.   
-
-Start with a triangle.  he internal angle of an equilateral triangle is 60 degrees.
-
-.. activecode:: lps_tfl_sample_1
-    :nocodelens:
-    :above:
-    
-    
-    #SET UP
-    import turtle           
-    wn = turtle.Screen()    
-    t = turtle.Turtle()    # create a turtle named t
-    side = 100
-
-    ## CALC ANGLE
-    intAngle = 60
-    turnAngle = 180 - intAngle
-    
-    # DRAW A TRIANGLE
-    for i in [1,2,3]:
-        t.left( turnAngle )
-        t.forward( side )
-
-
-The internal angle of a square is 90 degrees.  Finish this code to draw on now
-
-.. activecode:: lps_tfl_sample_1
-    :nocodelens:
-    :above:
-    
-    
-    #SET UP
-    import turtle           
-    wn = turtle.Screen()    
-    t = turtle.Turtle()    # create a turtle named t
-    side = 100
-
-    ## CALC ANGLE
-    intAngle = 90
-    turnAngle = 180 - intAngle
-    
-    # DRAW A SQUARE
-    for i in [1,2,3,4]:
-
-
-
-The internal angle of hexagon is 120 degrees.  Draw one now.    
+Lets look at another example
 
 
 .. activecode:: lps_tfl_sample_1
-    :nocodelens:
     :above:
     
+    x = 0
+    for counter in [ 1, 2, 3, 4 ]:
+        print ("Count is ", counter )
+        print ("Count squared is ", counter ** 2 ) 
+        x = x + counter
+        
+    print ("x is ", x )
     
-    #SET UP
-    import turtle           
-    wn = turtle.Screen()    
-    t = turtle.Turtle()    # create a turtle named t
-    side = 70
-    
-    ## CALC ANGLE
-    intAngle = 
-    turnAngle = 
-    
-    # DRAW THE HEXAGON
+
+**Things to notice**
+
+- Each time the loop executes, ``counter`` has a different value. The value is taken from the list in the first line.
+
+- Since ``counter`` is set to int values, it can be used in expressions like ``x + counter``.
+
+- The variable ``x`` is defined before the loop, and updated within the loop.
+
+- All code that is part of the loop is indented.  This is called the **body**.
 
 
 
-The Range Function 
-=====================
+**Exercise 1. Being Square**
 
-The formula for the internal angle of for any regular polygon is:
+Your Task
 
-|   **(180 * (sides-2)) / sides )**
+- Modify the code in draw square so that it uses a for loop instead of repeating the same command over and over.
 
-Using this formula, we can have a general program for drawing a regular polygon.  But the size of the list we use in the for statemnt must vary, according to the number of sides.  We must generate a list of the correct length.  The **range()** function can to this for us.  We will learn more about range() later.  The simplest version looks like this
-
-|    **range( n )** generates a list **n** items long.
-
-So if we want to repeat something 10 times, we use
-
-|   for i in range( 10 ) :
-
-**Exercise 1.  Polly done gone.**
-
-With this knowledge, lets write a method that draws a polygon with any number of sides.
 
 .. activecode:: lps_tfl_code_1
-    :nocodelens:
     :above:
     
-    #SET UP
+    # SET UP 
     import turtle           
     wn = turtle.Screen()    
     t = turtle.Turtle()    # create a turtle named t
-    size = 40
-    
-    # GET SIDES and CALC ANGLE
-    sidesStr = input( "How any sides should we draw?" )
-    sides = int( sidesStr )
-    intAngle = (180 * (sides-2)) / sides
-    turnAngle = 
-    
-    # DRAW THE SHAPE
+
+    # DEFINE FUNCTION
+    def drawSquare( tur ):
+       size = 100
+       #### change this code to use a for loop
+       tur.forward(size)
+       tur.left(90)
+       tur.forward(size)
+       tur.left(90)
+       tur.forward(size)
+       tur.left(90)
+       tur.forward(size)
+       tur.left(90)
 
 
-**Exercise 2. Stairway to nowhere**
+    drawSquare( t )
 
-Problem: Create a staircase with steps 30 pixels high.  The stairs raise a total of 180 pixels.  In code, calculate how many steps you need, and then write the loop to draw them.
 
-Use the problem solving approach we talked about in the last lesson.  Break the problem into sections, and add comments to the code to outline the sections.
+**Exercise 2. Three Squares**
 
-.. activecode:: lps_tfl_code_1
-    :nocodelens:
+Your Task
+
+- Write the code for drawSquare using a for loop instead of repeating the same command over and over.
+
+- Fill in the body of the loop ``for x in [ -190, -70, 50 ]`` so that for each value of ``x`` it draws a square at (x,y).
+
+.. activecode:: lps_tfl_code_2
     :above:
     
-    
+    # SET UP 
+    import turtle           
+    wn = turtle.Screen()    
+    t = turtle.Turtle()    
+
+
+    def moveTurtle( turtl, x , y ):
+        turtl.penup()
+        turtl.goto( x,y)
+        turtl.pendown()
+
+    def drawSquare( tur, size):
+        #### write a for loop that draws a square
 
 
 
-.. index:: for loop, iteration, 
+    sz = 100
+    y = 0
+    for x in [ -190, -70, 50 ]:
+        #### move the turtle to x,y
+        
+        #### draw a square of size sz
+        
+
+.. index:: for loop, iteration, list, body  
+
 
 |
 |
@@ -214,6 +168,8 @@ Use the problem solving approach we talked about in the last lesson.  Break the 
 
 :sctnhead:`Glossary and Terms`
 
+Body
+    The indented section of the loop, which is executed repeatedly.
 
 for loop
     A python statement that iterates through a sequence of items.
@@ -222,7 +178,8 @@ Iteration
     The repetition of a set of operations.
     
  
-
+List
+    A python data type that hold a sequence of items.  Each item is a value.
 
 
 
