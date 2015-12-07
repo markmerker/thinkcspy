@@ -71,29 +71,29 @@ By re-using the commands already in the program, you should be able to draw a co
 
 The Turtle object provides lots different methods you can use while drawing.  A few are listed below.  
 
-=========== ======= =============== ============= =================================================================================   
+=========== ======= =============== ============== =============================================================================================================   
         Turtle Methods
------------------------------------------------------------------------------------------------------------------------------------   
-Method      Short   Paramters       Examples      Notes 
-            name
-=========== ======= =============== ============= =================================================================================   
-forward     fd()    steps           forward(50)   Move forward *steps* pixels.
-backward    bk()    steps           backward(18)  Move forward *steps* pixels.
-right       rt()    degrees         right(30)     Turn right by the number of *degrees*
-left        lt()    degrees         left(30)      Turn left by the number of *degrees*
-circle              radius          cicle(25)     Draw a circle with size *radius* 
-setheading  seth()  direction       setheading(1) Point turtle to 0-east(right),90-north(up), 180-west(left), 270-south(down)
-pendown     down()                  pendown()     Put pen to paper, e.g. draw when turtle moves.
-penup       up()                    penup()       Lift pen from paper, e.g. don't draw when turtle moves.
-pensize     width() pixels          pensize(12)   Make pen *pixels* wide.
-color               name            color("red")  Set pen color to a name. Some names work, some don't.
-color               r,g,b           color(1,5,9)  Set color using values from 0 to 255 for red, green and blue.
-=========== ======= =============== ============= =================================================================================   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method      Short   Paramters       Examples       Notes 
+            name                                   
+=========== ======= =============== ============== =============================================================================================================   
+forward     fd()    steps           forward(50)    Move forward *steps* pixels.
+backward    bk()    steps           backward(18)   Move forward *steps* pixels.
+right       rt()    degrees         right(30)      Turn right by the number of *degrees*
+left        lt()    degrees         left(30)       Turn left by the number of *degrees*
+circle              radius          cicle(25)      Draw a circle with size *radius* 
+setheading  seth()  degrees         setheading(45) Point turtle degrees from east (right).0 points right, 45 points toward the top-right, 90 straight up, etc.
+pendown     down()                  pendown()      Put pen to paper, e.g. draw when turtle moves.
+penup       up()                    penup()        Lift pen from paper, e.g. don't draw when turtle moves.
+pensize     width() pixels          pensize(12)    Make pen *pixels* wide.
+color               name            color("red")   Set pen color to a name. Some names work, some don't.
+color               r,g,b           color(1,5,9)   Set color using values from 0 to 255 for red, green and blue.
+=========== ======= =============== ============== =============================================================================================================   
 
 
 Exercise 2.
 
-Take some time to draw whatever you like in the code box below, using these methods.  Your tutrle is names "alicia".  When you have played around some, use the "Save" button to save your first turtle code.
+Take some time to draw whatever you like in the code box below, using these methods.  Your turtle is names "alicia".  When you have played around some, use the "Save" button to save your first turtle code.
 
 .. activecode:: lps_oftp_code2
     :nocodelens:

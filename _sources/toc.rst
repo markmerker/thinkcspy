@@ -13,7 +13,7 @@ Assignments
    GeneralIntro/LPS/Glossary.rst
 
 I. General Introduction
-::::::::::::::::::::
+:::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 1
@@ -32,7 +32,7 @@ I. General Introduction
 
 
 II. Python Turtle Graphics
-:::::::::::::::::::::::
+::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 1
@@ -43,6 +43,7 @@ II. Python Turtle Graphics
    PythonTurtle/LPS/functions.rst
    PythonTurtle/LPS/functions_2.rst
    PythonTurtle/LPS/TheForLoop.rst
+   PythonTurtle/LPS/ForAndRange.rst
    GeneralIntro/LPS/BookStopsHere.rst
    PythonTurtle/LPS/Unit2Labs.rst
    PythonTurtle/LPS/Unit2Launches.rst
@@ -62,7 +63,7 @@ Debugging Interlude 1
    
 
 Python Turtle Graphics
-::::::::::::::::::::::
+:::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 2
