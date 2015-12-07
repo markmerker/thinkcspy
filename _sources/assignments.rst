@@ -28,6 +28,10 @@
 
 Class Assignments
 -------------------
+
+**Basic for loops - due Monday Dec 7**
+    The for loop :ref:`Exercise 1 Being Square <lps_tfl_code_1>`, :ref:`Exercise 2 Three Squares <lps_tfl_code_2>` 
+    
 **Function Returns - due Thursday November 19**
     Functions (Part 2) :ref:`Exercise 1 <lps_func2_code1>`, :ref:`Exercise 2 <lps_func2_code2>`, :ref:`Exercise 3 <lps_func2_code3>`, :ref:`Exercise 4 <lps_func2_code4>`
 

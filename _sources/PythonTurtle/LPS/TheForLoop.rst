@@ -126,7 +126,7 @@ Your Task
 
 **Exercise 2. Three Squares**
 
-Your Task
+Your Tasks
 
 - Write the code for drawSquare using a for loop instead of repeating the same command over and over.
 
