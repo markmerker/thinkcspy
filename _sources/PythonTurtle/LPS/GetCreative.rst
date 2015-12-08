@@ -520,3 +520,157 @@ Be sure to save your work as you go along.
             tur.right( 180 - angle)
 
     ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+    
+    
+.. activecode:: lps_gc_code_2
+    :above:
+    :nocodelens:
+
+
+    import turtle          
+    import random
+    from random import randrange
+    from random import randint
+
+    wn = turtle.Screen()  
+    tur = turtle.Turtle()
+    tur.speed(300)
+
+    def moveTurtle( x, y ):
+        tur.penup()
+        tur.goto( x, y )
+        tur.pendown()
+
+    def setRandomColor():
+        tur.color( randint(0,255), randint(0,255), randint(0,255))
+
+    def getInternalAngle( sides ):
+        return ( 180 * (sides-2)) / float(sides)
+
+
+    def drawPolygon( sides, size):
+        # get internal angle
+        internalAngle = getInternalAngle( sides )
+        for i in range( sides ):
+            tur.forward( size )
+            tur.left( 180 - internalAngle )
+
+    def drawCurve( steps, size, degrees ):
+        for i in range( steps ):
+            tur.forward( size )
+            tur.left( degrees ) 
+
+    def drawSpiral( steps,initSize,degrees  ):
+        size = initSize
+        for i in range( steps ):
+            tur.forward( size )
+            size = size + 1
+            tur.left( degrees )
+
+    def drawStar( points, size ):
+        angle = 360.0 / points
+        for i in range( points):
+            tur.forward( size )
+            tur.back( size )
+            tur.left( angle )
+
+    def starAngle( numSides ):
+        a = getInternalAngle( numSides )
+        if (numSides % 2) == 1 :
+            angle = (180 - a) / 2.0
+        else:
+            angle = 180 - a
+        return angle
+
+    def drawStar1( sideCount,  sideSize ):
+        if (sideCount % 2) == 0:
+            return
+        tur.pendown()
+        angle = starAngle( sideCount )
+        tur.left( 90 - (angle / 2) )
+        for i in range( sideCount ):
+            tur.forward( sideSize )
+            tur.right( 180 - angle)
+
+    ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+
+
+
+.. activecode:: lps_gc_code_3
+    :above:
+    :nocodelens:
+    
+
+    import turtle          
+    import random
+    from random import randrange
+    from random import randint
+
+    wn = turtle.Screen()  
+    tur = turtle.Turtle()
+    tur.speed(300)
+
+    def moveTurtle( x, y ):
+        tur.penup()
+        tur.goto( x, y )
+        tur.pendown()
+
+    def setRandomColor():
+        tur.color( randint(0,255), randint(0,255), randint(0,255))
+
+    def getInternalAngle( sides ):
+        return ( 180 * (sides-2)) / float(sides)
+
+
+    def drawPolygon( sides, size):
+        # get internal angle
+        internalAngle = getInternalAngle( sides )
+        for i in range( sides ):
+            tur.forward( size )
+            tur.left( 180 - internalAngle )
+
+    def drawCurve( steps, size, degrees ):
+        for i in range( steps ):
+            tur.forward( size )
+            tur.left( degrees ) 
+
+    def drawSpiral( steps,initSize,degrees  ):
+        size = initSize
+        for i in range( steps ):
+            tur.forward( size )
+            size = size + 1
+            tur.left( degrees )
+
+    def drawStar( points, size ):
+        angle = 360.0 / points
+        for i in range( points):
+            tur.forward( size )
+            tur.back( size )
+            tur.left( angle )
+
+    def starAngle( numSides ):
+        a = getInternalAngle( numSides )
+        if (numSides % 2) == 1 :
+            angle = (180 - a) / 2.0
+        else:
+            angle = 180 - a
+        return angle
+
+    def drawStar1( sideCount,  sideSize ):
+        if (sideCount % 2) == 0:
+            return
+        tur.pendown()
+        angle = starAngle( sideCount )
+        tur.left( 90 - (angle / 2) )
+        for i in range( sideCount ):
+            tur.forward( sideSize )
+            tur.right( 180 - angle)
+
+    ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+    ###### Draw here using turtle names tur
+
