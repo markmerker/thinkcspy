@@ -44,7 +44,7 @@ II. Python Turtle Graphics
    PythonTurtle/LPS/functions_2.rst
    PythonTurtle/LPS/TheForLoop.rst
    PythonTurtle/LPS/ForAndRange.rst
-   GeneralIntro/LPS/BookStopsHere.rst
+   PythonTurtle/LPS/GetCreative.rst
    PythonTurtle/LPS/Unit2Labs.rst
    PythonTurtle/LPS/Unit2Launches.rst
    PythonTurtle/LPS/Unit2Lab2.rst

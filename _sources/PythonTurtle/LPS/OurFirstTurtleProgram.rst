@@ -72,9 +72,9 @@ By re-using the commands already in the program, you should be able to draw a co
 The Turtle object provides lots different methods you can use while drawing.  A few are listed below.  
 
 =========== ======= =============== ============== =============================================================================================================   
-        Turtle Methods
+        Turtle Functions
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Method      Short   Paramters       Examples       Notes 
+Function    Short   Paramters       Examples       Notes 
             name                                   
 =========== ======= =============== ============== =============================================================================================================   
 forward     fd()    steps           forward(50)    Move forward *steps* pixels.
