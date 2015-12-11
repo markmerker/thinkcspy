@@ -227,7 +227,8 @@ each code box, and look at the area with the comment ## SAMPLE CODE ##
         for i in range( sideCount ):
             tur.forward( sideSize )
             tur.right( 180 - angle)
-
+        tur.right( 90 - (angle / 2) )
+        
     def drawPolygon( sides, size):
         # get internal angle
         internalAngle = getInternalAngle( sides )
@@ -394,7 +395,8 @@ each code box, and look at the area with the comment ## SAMPLE CODE ##
         for i in range( sideCount ):
             tur.forward( sideSize )
             tur.right( 180 - angle)
-
+        tur.right( 90 - (angle / 2) )
+        
     def drawPolygon( sides, size):
         # get internal angle
         internalAngle = getInternalAngle( sides )
@@ -518,7 +520,8 @@ Be sure to save your work as you go along.
         for i in range( sideCount ):
             tur.forward( sideSize )
             tur.right( 180 - angle)
-
+        tur.right( 90 - (angle / 2) )
+        
     ###### Draw here using turtle names tur
     ###### Draw here using turtle names tur
     ###### Draw here using turtle names tur
@@ -593,6 +596,7 @@ Be sure to save your work as you go along.
         for i in range( sideCount ):
             tur.forward( sideSize )
             tur.right( 180 - angle)
+        tur.right( 90 - (angle / 2) )
 
     ###### Draw here using turtle names tur
     ###### Draw here using turtle names tur
@@ -669,7 +673,8 @@ Be sure to save your work as you go along.
         for i in range( sideCount ):
             tur.forward( sideSize )
             tur.right( 180 - angle)
-
+        tur.right( 90 - (angle / 2) )
+        
     ###### Draw here using turtle names tur
     ###### Draw here using turtle names tur
     ###### Draw here using turtle names tur
